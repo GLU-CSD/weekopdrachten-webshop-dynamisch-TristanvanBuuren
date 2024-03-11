@@ -1,54 +1,18 @@
-<!DOCTYPE html>
-<html class="no-js" lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Webshop</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <meta name="description" content="">
-
-    <link rel="icon" href="/favicon.ico" sizes="any">
-    <link rel="icon" href="/icon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="icon.png">
-    <meta name="theme-color" content="#fafafa">
-
-    <style>
-      ul#menu li {
-        display: inline;
-      }
-    </style>
-  </head>
-
-  <body onLoad="DisplayStorage()">
-    <div class="header-bar">
-      <!-- START HEADER TOPBAR-->
-      <div class="header-top-bar">
-        <label for="taal">Uw taal:</label>
-        <select name="taal" id="taal">
-          <option value="NL">Nederlands</option>
-          <option value="EN">English</option>
-          <option value="FR">Français</option>
-          <option value="DE">Deutsch</option>
-        </select>
-        <div class="profiel">
-            <a href="index.html" class="setting">Mijn account</a>
-            <a class="spacer">|</a>
-            <a href="bestellen.html" class="setting">Afrekenen</a>
-            <a class="spacer">|</a>
-            <a href="index.html" class="setting">Inloggen</a>
-        </div>
-      </div>
+<?php
+include_once("view/header.php");
+?>
+<main>
       <!-- / HEADER TOPBAR-->
       <!-- START HEADER BOTTOMBAR-->
       <div class="header-bottom-bar">
         <div id="logo"><img src="assets/img/logo.png" alt="logo" width="20" height="20"></div>
         <div class="navbar">
-          <a href="index.html" class="item">Home</a>
-          <a href="index.html" class="item">Euro</a>
-          <a href="dollar.html" class="item">Dollar</a>
-          <a href="yen.html" class="item">Yen</a>
-          <a href="pound.html" class="item selected">Pond</a>
-          <a href="roebel.html" class="item">Roebel</a>
+          <a href="index.php" class="item">Home</a>
+          <a href="index.php" class="item">Euro</a>
+          <a href="dollar.php" class="item">Dollar</a>
+          <a href="yen.php" class="item">Yen</a>
+          <a href="pound.php" class="item selected">Pond</a>
+          <a href="roebel.php" class="item">Roebel</a>
         </div>
         <div class="shop-buttons">
           <div id="menu">
@@ -162,51 +126,7 @@
       </div>
       <!-- / ARTICLES -->
     </div>
-    <!-- / CONTENT -->
-    <!-- START BOTTOMBAR -->
-    <div class="bottom-bar">
-      <div class="bottom-box" id="VEILIG-BETALEN">
-        <span class="fs-20">VEILIG BETALEN</span>
-        <span class="fs-15 w-165">Betaal in alle veiligheid met onze partners</span>
-        <div id="payment-methods">
-          <img src="assets/img/Paypal.png" alt="Paypal" width="100" height="50">
-          <img src="assets/img/IDEAL.png" alt="IDEAL" width="50" height="40">
-          <img src="assets/img/Apple_Pay.png" alt="Apple-Pay" width="100" height="50">
-          <img src="assets/img/Mastercard-logo.png" alt="Mastercard-logo" width="50" height="50">
-        </div>
-      </div>
-      <div class="bottom-box" id="LEVERINGSKOSTEN">
-        <span class="fs-20">LEVERINGSKOSTEN</span>
-        <span class="fs-15">Transport tarieven</span>
-      </div>
-      <div class="bottom-box" id="KLANTENSERVICE">
-        <span class="fs-20">KLANTENSERVICE</span>
-        <ul>
-          <li>Paswoord vergeten</li>
-          <li>Veilige betaling</li>
-          <li>Levering</li>
-          <li>Annuleren, retouneren en ruilen</li>
-        </ul>
-      </div>
-      <div class="bottom-box" id="OVER-ONS">
-        <span class="fs-20">OVER ONS</span>
-        <ul>
-          <li>Over ons</li>
-          <li>Contactinformatie</li>
-          <li>Algemene voorwaarden</li>
-          <li>Privacy beleid</li>
-        </ul>
-      </div>
-    </div>
-    <div class="credits">
-      <div>Webshop door Tristan van Buuren</div>
-      <div>THIS IS NOT REAL MONEY OR FAKE</div>
-    </div>
-
-    <!-- / BOTTOMBAR-->
-    <!-- SCRIPTS -->
-    <script src="assets/js/app.js"></script>
-    <script src="assets/js/slider.js"></script>
-    <script src="assets/js/cart.js"></script>
-  </body>
-</html>
+  <!-- / CONTENT -->
+  <?php
+  include_once("view/footer.php")
+  ?>
