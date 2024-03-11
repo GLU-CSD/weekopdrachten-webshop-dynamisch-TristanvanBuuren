@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Webshop</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <meta name="description" content="">
+    
+        <link rel="icon" href="/favicon.ico" sizes="any">
+        <link rel="icon" href="/icon.svg" type="image/svg+xml">
+        <link rel="apple-touch-icon" href="icon.png">
+        <meta name="theme-color" content="#fafafa">
+    
+        <style>
+          ul#menu li {
+            display: inline;
+          }
+        </style>
+      </head>
+<body onLoad="DisplayStorage()">
+    <a href="index.html" class="fake-button">Back</a>
+    <div onclick="ClearStorage(); window.location.reload()" class="fake-button">Clear All</div>
+    
+    <fieldset>
+        <legend>Euros</legend>
+        <p id="euro5display"></p>
+        <p id="euro10display"></p>
+        <p id="euro20display"></p>
+        <p id="euro50display"></p>
+        <p id="euro100display"></p>
+        <p id="euro200display"></p>
+        <p id="euro500display"></p>
+    </fieldset>
+    <fieldset>
+        <legend>Dollars</legend>
+        <p id="dollar1display"></p>
+        <p id="dollar2display"></p>
+        <p id="dollar5display"></p>
+        <p id="dollar10display"></p>
+        <p id="dollar20display"></p>
+        <p id="dollar50display"></p>
+        <p id="dollar100display"></p>
+    </fieldset>
+    <fieldset>
+        <legend>Yen</legend>
+        <p id="yen1000display"></p>
+        <p id="yen2000display"></p>
+        <p id="yen5000display"></p>
+        <p id="yen10000display"></p>
+    </fieldset>
+    <fieldset>
+        <legend>Pond</legend>
+        <p id="pound5display"></p>
+        <p id="pound10display"></p>
+        <p id="pound20display"></p>
+        <p id="pound50display"></p>
+    </fieldset>
+    <fieldset>
+        <legend>Roebel</legend>
+        <p id="roebel100display"></p>
+        <p id="roebel200display"></p>
+        <p id="roebel1000display"></p>
+        <p id="roebel2000display"></p>
+        <p id="roebel5000display"></p>
+    </fieldset>
+    <p id="counter" class="hidden">amount in cart</p>
+    <script src="./assets/js/cart.js"></script>
+</body>
+</html>
