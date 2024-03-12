@@ -155,4 +155,4 @@ include_once("view/header.php");
   <!-- / CONTENT -->
   <?php
   include_once("view/footer.php")
-  ?>
+    ?>
