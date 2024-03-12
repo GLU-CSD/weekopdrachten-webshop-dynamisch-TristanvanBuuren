@@ -169,4 +169,160 @@ $array = [
             ]
         ]
     ],
+    [
+        [
+            "id" => "14",
+            "title" => "10x ¥1000 biljetten",
+            "description" => "Alle echtheidskenmerken gegarandeert",
+            "category" => "yen",
+            "price" => "€ 34,95",
+            "photos" => [
+                "photo1" => "1000_yen.png"
+            ]
+        ]
+    ],
+    [
+        [
+            "id" => "15",
+            "title" => "10x ¥2000 biljetten",
+            "description" => "Alle echtheidskenmerken gegarandeert",
+            "category" => "yen",
+            "price" => "€ 89,95",
+            "photos" => [
+                "photo1" => "2000_yen.png"
+            ]
+        ]
+    ],
+    [
+        [
+            "id" => "16",
+            "title" => "10x ¥5000 biljetten",
+            "description" => "Alle echtheidskenmerken gegarandeert",
+            "category" => "yen",
+            "price" => "€ 179,95",
+            "photos" => [
+                "photo1" => "5000_yen.png"
+            ]
+        ]
+    ],
+    [
+        [
+            "id" => "17",
+            "title" => "10x ¥10000 biljetten",
+            "description" => "Alle echtheidskenmerken gegarandeert",
+            "category" => "yen",
+            "price" => "€ 399,95",
+            "photos" => [
+                "photo1" => "10000_yen.png"
+            ]
+        ]
+    ],
+    [
+        [
+            "id" => "18",
+            "title" => "10x £5 biljetten",
+            "description" => "Alle echtheidskenmerken gegarandeert",
+            "category" => "pond",
+            "price" => "€ 34,95",
+            "photos" => [
+                "photo1" => "5_pounds.jpg"
+            ]
+        ]
+    ],
+    [
+        [
+            "id" => "19",
+            "title" => "10x £10 biljetten",
+            "description" => "Alle echtheidskenmerken gegarandeert",
+            "category" => "pond",
+            "price" => "€ 59,95",
+            "photos" => [
+                "photo1" => "10_pounds.jpg"
+            ]
+        ]
+    ],
+    [
+        [
+            "id" => "20",
+            "title" => "10x £20 biljetten",
+            "description" => "Alle echtheidskenmerken gegarandeert",
+            "category" => "pond",
+            "price" => "€ 149,95",
+            "photos" => [
+                "photo1" => "20_pounds.jpg"
+            ]
+        ]
+    ],
+    [
+        [
+            "id" => "21",
+            "title" => "10x £50 biljetten",
+            "description" => "Alle echtheidskenmerken gegarandeert",
+            "category" => "pond",
+            "price" => "€ 449,95",
+            "photos" => [
+                "photo1" => "50_pounds.jpg"
+            ]
+        ]
+    ],
+    [
+        [
+            "id" => "22",
+            "title" => "10x ₽100 biljetten",
+            "description" => "Alle echtheidskenmerken gegarandeert",
+            "category" => "roebel",
+            "price" => "€ 7,95",
+            "photos" => [
+                "photo1" => "100_roebel.jpg"
+            ]
+        ]
+    ],
+    [
+        [
+            "id" => "23",
+            "title" => "10x ₽200 biljetten",
+            "description" => "Alle echtheidskenmerken gegarandeert",
+            "category" => "roebel",
+            "price" => "€ 15,95",
+            "photos" => [
+                "photo1" => "200_roebel.jpg"
+            ]
+        ]
+    ],
+    [
+        [
+            "id" => "24",
+            "title" => "10x ₽1000 biljetten",
+            "description" => "Alle echtheidskenmerken gegarandeert",
+            "category" => "roebel",
+            "price" => "€ 69,95",
+            "photos" => [
+                "photo1" => "1000_roebel.jpg"
+            ]
+        ]
+    ],
+    [
+        [
+            "id" => "25",
+            "title" => "10x ₽2000 biljetten",
+            "description" => "Alle echtheidskenmerken gegarandeert",
+            "category" => "roebel",
+            "price" => "€ 159,95",
+            "photos" => [
+                "photo1" => "2000_roebel.jpg"
+            ]
+        ]
+    ],
+    [
+        [
+            "id" => "26",
+            "title" => "10x ₽5000 biljetten",
+            "description" => "Alle echtheidskenmerken gegarandeert",
+            "category" => "roebel",
+            "price" => "€ 299,95",
+            "photos" => [
+                "photo1" => "5000_roebel.jpg"
+            ]
+        ]
+    ],
 ];
