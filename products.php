@@ -1,6 +1,6 @@
 <?php
 
-$array = [
+$euro = [
     "products" => [
         [
             "id" => "0",
@@ -85,9 +85,12 @@ $array = [
             ]
         ]
     ],
-    [
+];
+
+$dollar = [
+    "products" => [
         [
-            "id" => "7",
+            "id" => "0",
             "title" => "10x $1 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "dollar",
@@ -99,7 +102,7 @@ $array = [
     ],
     [
         [
-            "id" => "8",
+            "id" => "1",
             "title" => "10x $2 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "dollar",
@@ -111,7 +114,7 @@ $array = [
     ],
     [
         [
-            "id" => "9",
+            "id" => "2",
             "title" => "10x $5 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "dollar",
@@ -123,7 +126,7 @@ $array = [
     ],
     [
         [
-            "id" => "10",
+            "id" => "3",
             "title" => "10x $10 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "dollar",
@@ -135,7 +138,7 @@ $array = [
     ],
     [
         [
-            "id" => "11",
+            "id" => "4",
             "title" => "10x $20 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "dollar",
@@ -147,7 +150,7 @@ $array = [
     ],
     [
         [
-            "id" => "12",
+            "id" => "5",
             "title" => "10x $50 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "dollar",
@@ -159,7 +162,7 @@ $array = [
     ],
     [
         [
-            "id" => "13",
+            "id" => "6",
             "title" => "10x $100 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "dollar",
@@ -169,9 +172,12 @@ $array = [
             ]
         ]
     ],
-    [
+];
+
+$yen = [
+    "products" => [
         [
-            "id" => "14",
+            "id" => "0",
             "title" => "10x ¥1000 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "yen",
@@ -183,7 +189,7 @@ $array = [
     ],
     [
         [
-            "id" => "15",
+            "id" => "1",
             "title" => "10x ¥2000 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "yen",
@@ -195,7 +201,7 @@ $array = [
     ],
     [
         [
-            "id" => "16",
+            "id" => "2",
             "title" => "10x ¥5000 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "yen",
@@ -207,7 +213,7 @@ $array = [
     ],
     [
         [
-            "id" => "17",
+            "id" => "3",
             "title" => "10x ¥10000 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "yen",
@@ -217,9 +223,12 @@ $array = [
             ]
         ]
     ],
-    [
+];
+
+$pond = [
+    "products" => [
         [
-            "id" => "18",
+            "id" => "0",
             "title" => "10x £5 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "pond",
@@ -231,7 +240,7 @@ $array = [
     ],
     [
         [
-            "id" => "19",
+            "id" => "1",
             "title" => "10x £10 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "pond",
@@ -243,7 +252,7 @@ $array = [
     ],
     [
         [
-            "id" => "20",
+            "id" => "2",
             "title" => "10x £20 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "pond",
@@ -255,7 +264,7 @@ $array = [
     ],
     [
         [
-            "id" => "21",
+            "id" => "3",
             "title" => "10x £50 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "pond",
@@ -265,9 +274,12 @@ $array = [
             ]
         ]
     ],
-    [
+];
+
+$roebel = [
+    "products" => [
         [
-            "id" => "22",
+            "id" => "0",
             "title" => "10x ₽100 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "roebel",
@@ -279,7 +291,7 @@ $array = [
     ],
     [
         [
-            "id" => "23",
+            "id" => "1",
             "title" => "10x ₽200 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "roebel",
@@ -291,7 +303,7 @@ $array = [
     ],
     [
         [
-            "id" => "24",
+            "id" => "2",
             "title" => "10x ₽1000 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "roebel",
@@ -303,7 +315,7 @@ $array = [
     ],
     [
         [
-            "id" => "25",
+            "id" => "3",
             "title" => "10x ₽2000 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "roebel",
@@ -315,7 +327,7 @@ $array = [
     ],
     [
         [
-            "id" => "26",
+            "id" => "4",
             "title" => "10x ₽5000 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "roebel",

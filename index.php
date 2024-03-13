@@ -87,7 +87,9 @@ include_once("view/header.php");
     <!-- START ARTICLES -->
     <div class="articles">
       <?php
-      foreach ($products as $category => $euro) {
+      include("products.php");
+
+      foreach ($array[$products] as $category => $euro) {
         echo "<div class='product'>";
         echo "<img class='geld-briefje/>";
         echo "<span class='product-text'>";

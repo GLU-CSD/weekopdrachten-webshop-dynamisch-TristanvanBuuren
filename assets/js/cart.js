@@ -37,9 +37,10 @@ function DisplayStorage() { // if there is someting in storage it loads it and d
             i = localStorage.getItem("amount");
             counter.innerHTML = "(" + i + ")";
         }
-        if (localStorage.getItem("euro5") !== null) {
+        if (localStorage.getItem("euro5") != null) {
             euro5 = localStorage.getItem("euro5");
-            document.getElementById("euro5display").innerHTML =  (euro5 * 10) + "x 5 euro" + "   (" + euro5 + ")";
+            // document.getElementById("euro5display").innerHTML =  (euro5 * 10) + "x 5 euro" + "   (" + euro5 + ")";
+            document.getElementById("euro5display").innerHTML = "10x 5 euro briefjes" + "€ 14,95" + "   (" + euro5 + ")" + "   €" + (14,95 * euro5);
         }
         if (localStorage.getItem("euro10") !== null) {
             euro10 = localStorage.getItem("euro10");
