@@ -90,7 +90,7 @@ include_once("view/header.php");
         <img src="assets/img/1_dollar.jpg" alt="1-dollar" width="200" height="100" class="geld-briefje">
         <span class="product-text">10x $1 biljetten</span>
         <div class="cart-button" onclick="ManageStorage('dollar1')">
-          <img src="assets/img/cart.png" alt="cart" width="40" height="40">
+          <img src="assets/img/cart.png" alt="cart" width="40" height="40" class="cart-img">
         </div>
         <span class="beschrijving">Alle echtheidskenmerken gegarandeert</span>
         <span class="prijs">€ 7,95</span>
@@ -99,7 +99,7 @@ include_once("view/header.php");
         <img src="assets/img/2_dollar.jpg" alt="2-dollar" width="200" height="100" class="geld-briefje">
         <span class="product-text">10x $2 biljetten</span>
         <div class="cart-button" onclick="ManageStorage('dollar2')">
-          <img src="assets/img/cart.png" alt="cart" width="40" height="40">
+          <img src="assets/img/cart.png" alt="cart" width="40" height="40" class="cart-img">
         </div>
         <span class="beschrijving">Alle echtheidskenmerken gegarandeert</span>
         <span class="prijs">€ 9,95</span>
@@ -108,7 +108,7 @@ include_once("view/header.php");
         <img src="assets/img/5_dollar.jpg" alt="5-dollar" width="200" height="100" class="geld-briefje">
         <span class="product-text">10x $5 biljetten</span>
         <div class="cart-button" onclick="ManageStorage('dollar5')">
-          <img src="assets/img/cart.png" alt="cart" width="40" height="40">
+          <img src="assets/img/cart.png" alt="cart" width="40" height="40" class="cart-img">
         </div>
         <span class="beschrijving">Alle echtheidskenmerken gegarandeert</span>
         <span class="prijs">€ 39,95</span>
@@ -117,7 +117,7 @@ include_once("view/header.php");
         <img src="assets/img/10_dollar.jpg" alt="10-dollar" width="200" height="100" class="geld-briefje">
         <span class="product-text">10x $10 biljetten</span>
         <div class="cart-button" onclick="ManageStorage('dollar10')">
-          <img src="assets/img/cart.png" alt="cart" width="40" height="40">
+          <img src="assets/img/cart.png" alt="cart" width="40" height="40" class="cart-img">
         </div>
         <span class="beschrijving">Alle echtheidskenmerken gegarandeert</span>
         <span class="prijs">€ 69,95</span>
@@ -126,7 +126,7 @@ include_once("view/header.php");
         <img src="assets/img/20_dollar.jpg" alt="20-dollar" width="200" height="100" class="geld-briefje">
         <span class="product-text">10x $20 biljetten</span>
         <div class="cart-button" onclick="ManageStorage('dollar20')">
-          <img src="assets/img/cart.png" alt="cart" width="40" height="40">
+          <img src="assets/img/cart.png" alt="cart" width="40" height="40" class="cart-img">
         </div>
         <span class="beschrijving">Alle echtheidskenmerken gegarandeert</span>
         <span class="prijs">€ 149,95</span>
@@ -135,7 +135,7 @@ include_once("view/header.php");
         <img src="assets/img/50_dollar.jpg" alt="50-dollar" width="200" height="100" class="geld-briefje">
         <span class="product-text">10x $50 biljetten</span>
         <div class="cart-button" onclick="ManageStorage('dollar50')">
-          <img src="assets/img/cart.png" alt="cart" width="40" height="40">
+          <img src="assets/img/cart.png" alt="cart" width="40" height="40" class="cart-img">
         </div>
         <span class="beschrijving">Alle echtheidskenmerken gegarandeert</span>
         <span class="prijs">€ 349,95</span>
@@ -144,7 +144,7 @@ include_once("view/header.php");
         <img src="assets/img/100_dollar.jpg" alt="100-dollar" width="200" height="100" class="geld-briefje">
         <span class="product-text">10x $100 biljetten</span>
         <div class="cart-button" onclick="ManageStorage('dollar100')">
-          <img src="assets/img/cart.png" alt="cart" width="40" height="40">
+          <img src="assets/img/cart.png" alt="cart" width="40" height="40" class="cart-img">
         </div>
         <span class="beschrijving">Alle echtheidskenmerken gegarandeert</span>
         <span class="prijs">€ 849,95</span>

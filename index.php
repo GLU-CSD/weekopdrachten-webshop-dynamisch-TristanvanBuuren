@@ -86,11 +86,26 @@ include_once("view/header.php");
     <!-- / SIDEBAR -->
     <!-- START ARTICLES -->
     <div class="articles">
+      <?php
+      foreach ($products as $category => $euro): 
+        echo ("<div class='product'>");
+        echo ("<img class='geld-briefje/>");
+        echo ("<span class='product-text'>");
+        echo ("</span>");
+        echo ("<div class='cart-button'>");
+        echo ("<img class='cart-img'/>");
+        echo ("</div>");
+        echo ("<span class='beschrijving'>");
+        echo ("</span>");
+        echo ("<span class='prijs'>");
+        echo ("</span>");
+        echo ("</div>");
+      ?>
       <div class="product" id="5euro">
         <img src="assets/img/5_euro.jpg" alt="5-euro" width="200" height="100" class="geld-briefje">
         <span class="product-text">10x €5 biljetten</span>
         <div class="cart-button" onclick="ManageStorage('euro5')">
-          <img src="assets/img/cart.png" alt="cart" width="40" height="40">
+          <img src="assets/img/cart.png" alt="cart" width="40" height="40" class="cart-img">
         </div>
         <span class="beschrijving">Alle echtheidskenmerken gegarandeert</span>
         <span class="prijs">€ 14,95</span>
@@ -99,7 +114,7 @@ include_once("view/header.php");
         <img src="assets/img/10_euro.jpg" alt="10-euro" width="200" height="100" class="geld-briefje">
         <span class="product-text">10x €10 biljetten</span>
         <div class="cart-button" onclick="ManageStorage('euro10')">
-          <img src="assets/img/cart.png" alt="cart" width="40" height="40">
+          <img src="assets/img/cart.png" alt="cart" width="40" height="40" class="cart-img">
         </div>
         <span class="beschrijving">Alle echtheidskenmerken gegarandeert</span>
         <span class="prijs">€ 19,95</span>
@@ -108,7 +123,7 @@ include_once("view/header.php");
         <img src="assets/img/20_euro.jpg" alt="20-euro" width="200" height="100" class="geld-briefje">
         <span class="product-text">10x €20 biljetten</span>
         <div class="cart-button" onclick="ManageStorage('euro20')">
-          <img src="assets/img/cart.png" alt="cart" width="40" height="40">
+          <img src="assets/img/cart.png" alt="cart" width="40" height="40" class="cart-img">
         </div>
         <span class="beschrijving">Alle echtheidskenmerken gegarandeert</span>
         <span class="prijs">€ 29,95</span>
@@ -117,7 +132,7 @@ include_once("view/header.php");
         <img src="assets/img/50_euro.jpg" alt="50-euro" width="200" height="100" class="geld-briefje">
         <span class="product-text">10x €50 biljetten</span>
         <div class="cart-button" onclick="ManageStorage('euro50')">
-          <img src="assets/img/cart.png" alt="cart" width="40" height="40">
+          <img src="assets/img/cart.png" alt="cart" width="40" height="40" class="cart-img">
         </div>
         <span class="beschrijving">Alle echtheidskenmerken gegarandeert</span>
         <span class="prijs">€ 69,95</span>
@@ -126,7 +141,7 @@ include_once("view/header.php");
         <img src="assets/img/100_euro.jpg" alt="100-euro" width="200" height="100" class="geld-briefje">
         <span class="product-text">10x €100 biljetten</span>
         <div class="cart-button" onclick="ManageStorage('euro100')">
-          <img src="assets/img/cart.png" alt="cart" width="40" height="40">
+          <img src="assets/img/cart.png" alt="cart" width="40" height="40" class="cart-img">
         </div>
         <span class="beschrijving">Alle echtheidskenmerken gegarandeert</span>
         <span class="prijs">€ 149,95</span>
@@ -135,7 +150,7 @@ include_once("view/header.php");
         <img src="assets/img/200_euro.jpg" alt="200-euro" width="200" height="100" class="geld-briefje">
         <span class="product-text">10x €200 biljetten</span>
         <div class="cart-button" onclick="ManageStorage('euro200')">
-          <img src="assets/img/cart.png" alt="cart" width="40" height="40">
+          <img src="assets/img/cart.png" alt="cart" width="40" height="40" class="cart-img">
         </div>
         <span class="beschrijving">Alle echtheidskenmerken gegarandeert</span>
         <span class="prijs">€ 299,95</span>
@@ -144,7 +159,7 @@ include_once("view/header.php");
         <img src="assets/img/500_euro.jpg" alt="500-euro" width="200" height="100" class="geld-briefje">
         <span class="product-text">10x €500 biljetten</span>
         <div class="cart-button" onclick="ManageStorage('euro500')">
-          <img src="assets/img/cart.png" alt="cart" width="40" height="40">
+          <img src="assets/img/cart.png" alt="cart" width="40" height="40" class="cart-img">
         </div>
         <span class="beschrijving">Alle echtheidskenmerken gegarandeert</span>
         <span class="prijs">€ 899,95</span>

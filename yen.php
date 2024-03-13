@@ -91,7 +91,7 @@ include_once("view/header.php");
         <img src="assets/img/1000_yen.png" alt="1000-yen" width="200" height="100" class="geld-briefje">
         <span class="product-text">10x ¥1000 biljetten</span>
         <div class="cart-button" onclick="ManageStorage('yen1000')">
-          <img src="assets/img/cart.png" alt="cart" width="40" height="40">
+          <img src="assets/img/cart.png" alt="cart" width="40" height="40" class="cart-img">
         </div>
         <span class="beschrijving">Alle echtheidskenmerken gegarandeert</span>
         <span class="prijs">€ 34,95</span>
@@ -100,7 +100,7 @@ include_once("view/header.php");
         <img src="assets/img/2000_yen.png" alt="2000-yen" width="200" height="100" class="geld-briefje">
         <span class="product-text">10x ¥2000 biljetten</span>
         <div class="cart-button" onclick="ManageStorage('yen2000')">
-          <img src="assets/img/cart.png" alt="cart" width="40" height="40">
+          <img src="assets/img/cart.png" alt="cart" width="40" height="40" class="cart-img">
         </div>
         <span class="beschrijving">Alle echtheidskenmerken gegarandeert</span>
         <span class="prijs">€ 89,95</span>
@@ -109,7 +109,7 @@ include_once("view/header.php");
         <img src="assets/img/5000_yen.png" alt="5000-yen" width="200" height="100" class="geld-briefje">
         <span class="product-text">10x ¥5000 biljetten</span>
         <div class="cart-button" onclick="ManageStorage('yen5000')">
-          <img src="assets/img/cart.png" alt="cart" width="40" height="40">
+          <img src="assets/img/cart.png" alt="cart" width="40" height="40" class="cart-img">
         </div>
         <span class="beschrijving">Alle echtheidskenmerken gegarandeert</span>
         <span class="prijs">€ 179,95</span>
@@ -118,7 +118,7 @@ include_once("view/header.php");
         <img src="assets/img/10000_yen.png" alt="10000-yen" width="200" height="100" class="geld-briefje">
         <span class="product-text">10x ¥10000 biljetten</span>
         <div class="cart-button" onclick="ManageStorage('yen10000')">
-          <img src="assets/img/cart.png" alt="cart" width="40" height="40">
+          <img src="assets/img/cart.png" alt="cart" width="40" height="40" class="cart-img">
         </div>
         <span class="beschrijving">Alle echtheidskenmerken gegarandeert</span>
         <span class="prijs">€ 399,95</span>

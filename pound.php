@@ -91,7 +91,7 @@ include_once("view/header.php");
           <img src="assets/img/5_pounds.jpg" alt="5-pound" width="200" height="100" class="geld-briefje">
           <span class="product-text">10x £5 biljetten</span>
           <div class="cart-button" onclick="ManageStorage('pound5')">
-            <img src="assets/img/cart.png" alt="cart" width="40" height="40">
+            <img src="assets/img/cart.png" alt="cart" width="40" height="40" class="cart-img">
           </div>
           <span class="beschrijving">Alle echtheidskenmerken gegarandeert</span>
           <span class="prijs">€ 34,95</span>
@@ -100,7 +100,7 @@ include_once("view/header.php");
           <img src="assets/img/10_pounds.jpg" alt="10-pound" width="200" height="100" class="geld-briefje">
           <span class="product-text">10x £10 biljetten</span>
           <div class="cart-button" onclick="ManageStorage('pound10')">
-            <img src="assets/img/cart.png" alt="cart" width="40" height="40">
+            <img src="assets/img/cart.png" alt="cart" width="40" height="40" class="cart-img">
           </div>
           <span class="beschrijving">Alle echtheidskenmerken gegarandeert</span>
           <span class="prijs">€ 59,95</span>
@@ -109,7 +109,7 @@ include_once("view/header.php");
           <img src="assets/img/20_pounds.jpg" alt="20-pound" width="200" height="100" class="geld-briefje">
           <span class="product-text">10x £20 biljetten</span>
           <div class="cart-button" onclick="ManageStorage('pound20')">
-            <img src="assets/img/cart.png" alt="cart" width="40" height="40">
+            <img src="assets/img/cart.png" alt="cart" width="40" height="40" class="cart-img">
           </div>
           <span class="beschrijving">Alle echtheidskenmerken gegarandeert</span>
           <span class="prijs">€ 149,95</span>
@@ -118,7 +118,7 @@ include_once("view/header.php");
           <img src="assets/img/50_pounds.jpg" alt="50-pound" width="200" height="100" class="geld-briefje">
           <span class="product-text">10x £50 biljetten</span>
           <div class="cart-button" onclick="ManageStorage('pound50')">
-            <img src="assets/img/cart.png" alt="cart" width="40" height="40">
+            <img src="assets/img/cart.png" alt="cart" width="40" height="40" class="cart-img">
           </div>
           <span class="beschrijving">Alle echtheidskenmerken gegarandeert</span>
           <span class="prijs">€ 449,95</span>

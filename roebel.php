@@ -91,7 +91,7 @@ include_once("view/header.php");
         <img src="assets/img/100_roebel.jpg" alt="100-roebel" width="200" height="100" class="geld-briefje">
         <span class="product-text">10x ₽100 biljetten</span>
         <div class="cart-button" onclick="ManageStorage('roebel100')">
-          <img src="assets/img/cart.png" alt="cart" width="40" height="40">
+          <img src="assets/img/cart.png" alt="cart" width="40" height="40" class="cart-img">
         </div>
         <span class="beschrijving">Alle echtheidskenmerken gegarandeert</span>
         <span class="prijs">€ 7,95</span>
@@ -100,7 +100,7 @@ include_once("view/header.php");
         <img src="assets/img/200_roebel.jpg" alt="200-roebel" width="200" height="100" class="geld-briefje">
         <span class="product-text">10x ₽200 biljetten</span>
         <div class="cart-button" onclick="ManageStorage('roebel200')">
-          <img src="assets/img/cart.png" alt="cart" width="40" height="40">
+          <img src="assets/img/cart.png" alt="cart" width="40" height="40" class="cart-img">
         </div>
         <span class="beschrijving">Alle echtheidskenmerken gegarandeert</span>
         <span class="prijs">€ 15,95</span>
@@ -109,7 +109,7 @@ include_once("view/header.php");
         <img src="assets/img/1000_roebles.jpg" alt="1000-roebel" width="200" height="100" class="geld-briefje">
         <span class="product-text">10x ₽1000 biljetten</span>
         <div class="cart-button" onclick="ManageStorage('roebel1000')">
-          <img src="assets/img/cart.png" alt="cart" width="40" height="40">
+          <img src="assets/img/cart.png" alt="cart" width="40" height="40" class="cart-img">
         </div>
         <span class="beschrijving">Alle echtheidskenmerken gegarandeert</span>
         <span class="prijs">€ 69,95</span>
@@ -118,7 +118,7 @@ include_once("view/header.php");
         <img src="assets/img/2000_roebles.jpg" alt="2000-roebel" width="200" height="100" class="geld-briefje">
         <span class="product-text">10x ₽2000 biljetten</span>
         <div class="cart-button" onclick="ManageStorage('roebel2000')">
-          <img src="assets/img/cart.png" alt="cart" width="40" height="40">
+          <img src="assets/img/cart.png" alt="cart" width="40" height="40" class="cart-img">
         </div>
         <span class="beschrijving">Alle echtheidskenmerken gegarandeert</span>
         <span class="prijs">€ 159,95</span>
@@ -127,7 +127,7 @@ include_once("view/header.php");
         <img src="assets/img/5000_roebel.jpg" alt="5000-roebel" width="200" height="100" class="geld-briefje">
         <span class="product-text">10x ₽5000 biljetten</span>
         <div class="cart-button" onclick="ManageStorage('roebel5000')">
-          <img src="assets/img/cart.png" alt="cart" width="40" height="40">
+          <img src="assets/img/cart.png" alt="cart" width="40" height="40" class="cart-img">
         </div>
         <span class="beschrijving">Alle echtheidskenmerken gegarandeert</span>
         <span class="prijs">€ 299,95</span>
