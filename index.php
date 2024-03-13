@@ -87,7 +87,7 @@ include_once("view/header.php");
     <!-- START ARTICLES -->
     <div class="articles">
       <?php
-      foreach ($products as $category => $euro): 
+      foreach ($products as $category => $euro) {
         echo ("<div class='product'>");
         echo ("<img class='geld-briefje/>");
         echo ("<span class='product-text'>");
@@ -100,6 +100,7 @@ include_once("view/header.php");
         echo ("<span class='prijs'>");
         echo ("</span>");
         echo ("</div>");
+      }
       ?>
       <div class="product" id="5euro">
         <img src="assets/img/5_euro.jpg" alt="5-euro" width="200" height="100" class="geld-briefje">
@@ -169,5 +170,6 @@ include_once("view/header.php");
   </div>
   <!-- / CONTENT -->
   <?php
-  include_once("view/footer.php")
-    ?>
+  include_once("view/footer.php");
+  ?>
+</main>
