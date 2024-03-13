@@ -88,18 +88,18 @@ include_once("view/header.php");
     <div class="articles">
       <?php
       foreach ($products as $category => $euro) {
-        echo ("<div class='product'>");
-        echo ("<img class='geld-briefje/>");
-        echo ("<span class='product-text'>");
-        echo ("</span>");
-        echo ("<div class='cart-button'>");
-        echo ("<img class='cart-img'/>");
-        echo ("</div>");
-        echo ("<span class='beschrijving'>");
-        echo ("</span>");
-        echo ("<span class='prijs'>");
-        echo ("</span>");
-        echo ("</div>");
+        echo "<div class='product'>";
+        echo "<img class='geld-briefje/>";
+        echo "<span class='product-text'>";
+        echo "</span>";
+        echo "<div class='cart-button'>";
+        echo "<img class='cart-img'/>";
+        echo "</div>";
+        echo "<span class='beschrijving'>";
+        echo "</span>";
+        echo "<span class='prijs'>";
+        echo "</span>";
+        echo "</div>";
       }
       ?>
       <div class="product" id="5euro">
