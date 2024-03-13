@@ -89,7 +89,7 @@ include_once("view/header.php");
       <?php
       include("products.php");
 
-      foreach ($array[$products] as $category => $euro) {
+      foreach ($products as $category => $euro) {
         echo "<div class='product'>";
         echo "<img class='geld-briefje/>";
         echo "<span class='product-text'>";
