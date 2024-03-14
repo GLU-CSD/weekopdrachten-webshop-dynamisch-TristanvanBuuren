@@ -262,6 +262,11 @@
    /* transition: transform 2s; */
  }
 
+ .cart-img {
+   width: 40px;
+   height: 40px;
+ }
+
  .cart-button:hover {
    display: inline-block;
    margin-left: 60px;

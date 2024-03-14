@@ -40,7 +40,7 @@ function DisplayStorage() { // if there is someting in storage it loads it and d
         if (localStorage.getItem("euro5") != null) {
             euro5 = localStorage.getItem("euro5");
             // document.getElementById("euro5display").innerHTML =  (euro5 * 10) + "x 5 euro" + "   (" + euro5 + ")";
-            document.getElementById("euro5display").innerHTML = "10x 5 euro briefjes" + "€ 14,95" + "   (" + euro5 + ")" + "   €" + (14,95 * euro5);
+            document.getElementById("euro5display").innerHTML = "10x 5 euro briefjes  " + "€ 14,95" + "   (" + euro5 + ")" + "   € " + (14,95 * euro5);
         }
         if (localStorage.getItem("euro10") !== null) {
             euro10 = localStorage.getItem("euro10");
@@ -293,6 +293,146 @@ function ManageStorage(product) { // when you click a cart-button it does +1
         default:
             console.log("Unknown product");
     }
+    // switch(product) {
+    //     case '0':
+    //         console.log("10x 5 euro added to cart!");
+    //         euro5++;
+    //         localStorage.setItem("euro5", euro5);
+    //         break;
+    //     case '1':
+    //         console.log("10x 10 euro added to cart!");
+    //         euro10++;
+    //         localStorage.setItem("euro10", euro10);
+    //         break;
+    //     case '2':
+    //         console.log("10x 20 euro added to cart!");
+    //         euro20++;
+    //         localStorage.setItem("euro20", euro20);
+    //         break;
+    //     case '3':
+    //         console.log("10x 50 euro added to cart!");
+    //         euro50++;
+    //         localStorage.setItem("euro50", euro50);
+    //         break;
+    //     case '4':
+    //         console.log("10x 100 euro added to cart!");
+    //         euro100++;
+    //         localStorage.setItem("euro100", euro100);
+    //         break;
+    //     case '5':
+    //         console.log("10x 200 euro added to cart!");
+    //         euro200++;
+    //         localStorage.setItem("euro200", euro200);
+    //         break;
+    //     case '6':
+    //         console.log("10x 500 euro added to cart!");
+    //         euro500++;
+    //         localStorage.setItem("euro500", euro500);
+    //         break;
+    //     case '7':
+    //         console.log("10x 1 dollar added to cart!");
+    //         dollar1++;
+    //         localStorage.setItem("dollar1", dollar1);
+    //         break;
+    //     case '8':
+    //         console.log("10x 2 dollar added to cart!");
+    //         dollar2++;
+    //         localStorage.setItem("dollar2", dollar2);
+    //         break;
+    //     case '9':
+    //         console.log("10x 5 dollar added to cart!");
+    //         dollar5++;
+    //         localStorage.setItem("dollar5", dollar5);
+    //         break;
+    //     case '10':
+    //         console.log("10x 10 dollar added to cart!");
+    //         dollar10++;
+    //         localStorage.setItem("dollar10", dollar10);
+    //         break;
+    //     case '11':
+    //         console.log("10x 20 dollar added to cart!");
+    //         dollar20++;
+    //         localStorage.setItem("dollar20", dollar20);
+    //         break;
+    //     case '12':
+    //         console.log("10x 50 dollar added to cart!");
+    //         dollar50++;
+    //         localStorage.setItem("dollar50", dollar50);
+    //         break;
+    //     case '13':
+    //         console.log("10x 100 dollar added to cart!");
+    //         dollar100++;
+    //         localStorage.setItem("dollar100", dollar100);
+    //         break;
+    //     case '14':
+    //         console.log("10x 1000 yen added to cart!");
+    //         yen1000++;
+    //         localStorage.setItem("yen1000", yen1000);
+    //         break;
+    //     case '15':
+    //         console.log("10x 2000 yen added to cart!");
+    //         yen2000++;
+    //         localStorage.setItem("yen2000", yen2000);
+    //         break;
+    //     case '16':
+    //         console.log("10x 5000 yen added to cart!");
+    //         yen5000++;
+    //         localStorage.setItem("yen5000", yen5000);
+    //         break;
+    //     case '17':
+    //         console.log("10x 10000 yen added to cart!");
+    //         yen10000++;
+    //         localStorage.setItem("yen10000", yen10000);
+    //         break;
+    //     case '18':
+    //         console.log("10x 5 pound added to cart!");
+    //         pound5++;
+    //         localStorage.setItem("pound5", pound5);
+    //         break;
+    //     case '19':
+    //         console.log("10x 10 pound added to cart!");
+    //         pound10++;
+    //         localStorage.setItem("pound10", pound10);
+    //         break;
+    //     case '20':
+    //         console.log("10x 20 pound added to cart!");
+    //         pound20++;
+    //         localStorage.setItem("pound20", pound20);
+    //         break;
+    //     case '21':
+    //         console.log("10x 50 pound added to cart!");
+    //         pound50++;
+    //         localStorage.setItem("pound50", pound50);
+    //         break;
+    //     case '22':
+    //         console.log("10x 100 roebel added to cart!");
+    //         roebel100++;
+    //         localStorage.setItem("roebel100", roebel100);
+    //         break;
+    //     case '23':
+    //         console.log("10x 200 roebel added to cart!");
+    //         roebel200++;
+    //         localStorage.setItem("roebel200", roebel200);
+    //         break;
+    //     case '24':
+    //         console.log("10x 1000 roebel added to cart!");
+    //         roebel1000++;
+    //         localStorage.setItem("roebel1000", roebel1000);
+    //         break;
+    //     case '25':
+    //         console.log("10x 2000 roebel added to cart!");
+    //         roebel2000++;
+    //         localStorage.setItem("roebel2000", roebel2000);
+    //         break;
+    //     case '26':
+    //         console.log("10x 5000 roebel added to cart!");
+    //         roebel5000++;
+    //         localStorage.setItem("roebel5000", roebel5000);
+    //         break;
+    //     // Add cases for other products as needed
+    //     default:
+    //         console.log("Unknown product");
+    // }
     i++;
     console.log(i);
     counter.innerHTML = "(" + i + ")";

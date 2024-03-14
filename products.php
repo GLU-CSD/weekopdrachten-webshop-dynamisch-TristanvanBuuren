@@ -7,9 +7,11 @@ $currencies = [
             "title" => "10x €5 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "euro",
+            "msName" => "euro5",
             "price" => "€ 14,95",
             "photos" => [
-                "photo1" => "5_euro.jpg"
+                "photo1" => "./assets/img/5_euro.jpg",
+                "photo2" => "./assets/img/cart.png"
             ]
         ],
         [
@@ -17,9 +19,11 @@ $currencies = [
             "title" => "10x €10 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "euro",
+            "msName" => "euro10",
             "price" => "€ 19,95",
             "photos" => [
-                "photo1" => "10_euro.jpg"
+                "photo1" => "./assets/img/10_euro.jpg",
+                "photo2" => "./assets/img/cart.png"
             ]
         ],
         [
@@ -27,9 +31,11 @@ $currencies = [
             "title" => "10x €20 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "euro",
+            "msName" => "euro20",
             "price" => "€ 29,95",
             "photos" => [
-                "photo1" => "20_euro.jpg"
+                "photo1" => "./assets/img/20_euro.jpg",
+                "photo2" => "./assets/img/cart.png"
             ]
         ],
         [
@@ -37,9 +43,11 @@ $currencies = [
             "title" => "10x €50 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "euro",
+            "msName" => "euro50",
             "price" => "€ 69,95",
             "photos" => [
-                "photo1" => "50_euro.jpg"
+                "photo1" => "./assets/img/50_euro.jpg",
+                "photo2" => "./assets/img/cart.png"
             ]
         ],
         [
@@ -47,9 +55,11 @@ $currencies = [
             "title" => "10x €100 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "euro",
+            "msName" => "euro100",
             "price" => "€ 149,95",
             "photos" => [
-                "photo1" => "100_euro.jpg"
+                "photo1" => "./assets/img/100_euro.jpg",
+                "photo2" => "./assets/img/cart.png"
             ]
         ],
         [
@@ -57,9 +67,11 @@ $currencies = [
             "title" => "10x €200 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "euro",
+            "msName" => "euro200",
             "price" => "€ 299,95",
             "photos" => [
-                "photo1" => "200_euro.jpg"
+                "photo1" => "./assets/img/200_euro.jpg",
+                "photo2" => "./assets/img/cart.png"
             ]
         ],
         [
@@ -67,9 +79,11 @@ $currencies = [
             "title" => "10x €500 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "euro",
+            "msName" => "euro500",
             "price" => "€ 899,95",
             "photos" => [
-                "photo1" => "500_euro.jpg"
+                "photo1" => "./assets/img/500_euro.jpg",
+                "photo2" => "./assets/img/cart.png"
             ]
         ]
     ],
@@ -79,9 +93,11 @@ $currencies = [
             "title" => "10x $1 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "dollar",
+            "msName" => "",
             "price" => "€ 7,95",
             "photos" => [
-                "photo1" => "1_dollar.jpg"
+                "photo1" => "./assets/img/1_dollar.jpg",
+                "photo2" => "./assets/img/cart.png"
             ]
         ],
         [
@@ -89,9 +105,11 @@ $currencies = [
             "title" => "10x $2 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "dollar",
+            "msName" => "",
             "price" => "€ 9,95",
             "photos" => [
-                "photo1" => "2_dollar.jpg"
+                "photo1" => "./assets/img/2_dollar.jpg",
+                "photo2" => "./assets/img/cart.png"
             ]
         ],
         [
@@ -99,9 +117,11 @@ $currencies = [
             "title" => "10x $5 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "dollar",
+            "msName" => "",
             "price" => "€ 39,95",
             "photos" => [
-                "photo1" => "5_dollar.jpg"
+                "photo1" => "./assets/img/5_dollar.jpg",
+                "photo2" => "./assets/img/cart.png"
             ]
         ],
         [
@@ -110,9 +130,11 @@ $currencies = [
             "title" => "10x $10 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "dollar",
+            "msName" => "",
             "price" => "€ 69,95",
             "photos" => [
-                "photo1" => "10_dollar.jpg"
+                "photo1" => "./assets/img/10_dollar.jpg",
+                "photo2" => "./assets/img/cart.png"
             ]
         ],
         [
@@ -120,9 +142,11 @@ $currencies = [
             "title" => "10x $20 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "dollar",
+            "msName" => "",
             "price" => "€ 149,95",
             "photos" => [
-                "photo1" => "20_dollar.jpg"
+                "photo1" => "./assets/img/20_dollar.jpg",
+                "photo2" => "./assets/img/cart.png"
             ]
         ],
         [
@@ -130,9 +154,11 @@ $currencies = [
             "title" => "10x $50 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "dollar",
+            "msName" => "",
             "price" => "€ 349,95",
             "photos" => [
-                "photo1" => "50_dollar.jpg"
+                "photo1" => "./assets/img/50_dollar.jpg",
+                "photo2" => "./assets/img/cart.png"
             ]
         ],
         [
@@ -140,9 +166,11 @@ $currencies = [
             "title" => "10x $100 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "dollar",
+            "msName" => "",
             "price" => "€ 849,95",
             "photos" => [
-                "photo1" => "100_dollar.jpg"
+                "photo1" => "./assets/img/100_dollar.jpg",
+                "photo2" => "./assets/img/cart.png"
             ]
         ]
     ],
@@ -153,9 +181,11 @@ $currencies = [
             "title" => "10x ¥1000 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "yen",
+            "msName" => "",
             "price" => "€ 34,95",
             "photos" => [
-                "photo1" => "1000_yen.png"
+                "photo1" => "./assets/img/1000_yen.png",
+                "photo2" => "./assets/img/cart.png"
             ]
         ],
         [
@@ -163,9 +193,11 @@ $currencies = [
             "title" => "10x ¥2000 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "yen",
+            "msName" => "",
             "price" => "€ 89,95",
             "photos" => [
-                "photo1" => "2000_yen.png"
+                "photo1" => "./assets/img/2000_yen.png",
+                "photo2" => "./assets/img/cart.png"
             ]
         ],
         [
@@ -173,9 +205,11 @@ $currencies = [
             "title" => "10x ¥5000 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "yen",
+            "msName" => "",
             "price" => "€ 179,95",
             "photos" => [
-                "photo1" => "5000_yen.png"
+                "photo1" => "./assets/img/5000_yen.png",
+                "photo2" => "./assets/img/cart.png"
             ]
         ],
         [
@@ -183,9 +217,11 @@ $currencies = [
             "title" => "10x ¥10000 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "yen",
+            "msName" => "",
             "price" => "€ 399,95",
             "photos" => [
-                "photo1" => "10000_yen.png"
+                "photo1" => "./assets/img/10000_yen.png",
+                "photo2" => "./assets/img/cart.png"
             ]
         ]
     ],
@@ -195,9 +231,11 @@ $currencies = [
             "title" => "10x £5 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "pond",
+            "msName" => "",
             "price" => "€ 34,95",
             "photos" => [
-                "photo1" => "5_pounds.jpg"
+                "photo1" => "./assets/img/5_pounds.jpg",
+                "photo2" => "./assets/img/cart.png"
             ]
         ],
         [
@@ -205,9 +243,11 @@ $currencies = [
             "title" => "10x £10 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "pond",
+            "msName" => "",
             "price" => "€ 59,95",
             "photos" => [
-                "photo1" => "10_pounds.jpg"
+                "photo1" => "./assets/img/10_pounds.jpg",
+                "photo2" => "./assets/img/cart.png"
             ]
         ],
         [
@@ -215,9 +255,11 @@ $currencies = [
             "title" => "10x £20 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "pond",
+            "msName" => "",
             "price" => "€ 149,95",
             "photos" => [
-                "photo1" => "20_pounds.jpg"
+                "photo1" => "./assets/img/20_pounds.jpg",
+                "photo2" => "./assets/img/cart.png"
             ]
         ],
         [
@@ -225,9 +267,11 @@ $currencies = [
             "title" => "10x £50 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "pond",
+            "msName" => "",
             "price" => "€ 449,95",
             "photos" => [
-                "photo1" => "50_pounds.jpg"
+                "photo1" => "./assets/img/50_pounds.jpg",
+                "photo2" => "./assets/img/cart.png"
             ]
         ]
     ],
@@ -237,9 +281,11 @@ $currencies = [
             "title" => "10x ₽100 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "roebel",
+            "msName" => "",
             "price" => "€ 7,95",
             "photos" => [
-                "photo1" => "100_roebel.jpg"
+                "photo1" => "./assets/img/100_roebel.jpg",
+                "photo2" => "./assets/img/cart.png"
             ]
         ],
         [
@@ -247,9 +293,11 @@ $currencies = [
             "title" => "10x ₽200 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "roebel",
+            "msName" => "",
             "price" => "€ 15,95",
             "photos" => [
-                "photo1" => "200_roebel.jpg"
+                "photo1" => "./assets/img/200_roebel.jpg",
+                "photo2" => "./assets/img/cart.png"
             ]
         ],
         [
@@ -257,9 +305,11 @@ $currencies = [
             "title" => "10x ₽1000 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "roebel",
+            "msName" => "",
             "price" => "€ 69,95",
             "photos" => [
-                "photo1" => "1000_roebel.jpg"
+                "photo1" => "./assets/img/1000_roebel.jpg",
+                "photo2" => "./assets/img/cart.png"
             ]
         ],
         [
@@ -267,9 +317,11 @@ $currencies = [
             "title" => "10x ₽2000 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "roebel",
+            "msName" => "",
             "price" => "€ 159,95",
             "photos" => [
-                "photo1" => "2000_roebel.jpg"
+                "photo1" => "./assets/img/2000_roebel.jpg",
+                "photo2" => "./assets/img/cart.png"
             ]
         ],
         [
@@ -277,17 +329,35 @@ $currencies = [
             "title" => "10x ₽5000 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
             "category" => "roebel",
+            "msName" => "",
             "price" => "€ 299,95",
             "photos" => [
-                "photo1" => "5000_roebel.jpg"
+                "photo1" => "./assets/img/5000_roebel.jpg",
+                "photo2" => "./assets/img/cart.png"
             ]
         ]
     ],
 ];
 
-foreach ($currencies["roebel"] as $currency) {
-    echo $currency["title"] . "<br>";
+// foreach ($currencies["euro"] as $currency) {
+//     // echo $currency["title"] . "<br>";
 
-    echo "--------------------------<br>";
-}
+//     echo "<div class='product'>";
+//     echo "<img src=" . "'" . ($currency["photos"]["photo1"]) . "'" . "  class='geld-briefje'/>";
+//     echo "<span class='product-text'>";
+//     echo $currency["title"];
+//     echo "</span>";
+//     echo "<div class='cart-button'>";
+//     echo "<img class='cart-img'/>";
+//     echo "</div>";
+//     echo "<span class='beschrijving'>";
+//     echo $currency["description"];
+//     echo "</span>";
+//     echo "<span class='prijs'>";
+//     echo $currency["price"];
+//     echo "</span>";
+//     echo "</div>";
+
+//     echo "--------------------------<br>";
+// }
 

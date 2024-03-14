@@ -87,7 +87,29 @@ include_once("view/header.php");
     <!-- / SIDEBAR -->
     <!-- START ARTICLES -->
     <div class="articles">
-      <div class="product" id="1000yen">
+      <?php
+      include("products.php");
+
+      foreach ($currencies["yen"] as $currency) {
+        echo "<div class='product'>";
+        echo "<img src=" . "'" . ($currency["photos"]["photo1"]) . "'" . "  class='geld-briefje'/>";
+        echo "<span class='product-text'>";
+        echo $currency["title"];
+        echo "</span>";
+        echo "<div class='cart-button'>";
+        // echo "<img class='cart-img'/>";
+        echo "<img class='cart-img' alt='cart' width='40' height='40' src=" . "'" . ($currency["photos"]["photo2"]) . "'" . "/>";
+        echo "</div>";
+        echo "<span class='beschrijving'>";
+        echo $currency["description"];
+        echo "</span>";
+        echo "<span class='prijs'>";
+        echo $currency["price"];
+        echo "</span>";
+        echo "</div>";
+      }
+      ?>
+      <!-- <div class="product" id="1000yen">
         <img src="assets/img/1000_yen.png" alt="1000-yen" width="200" height="100" class="geld-briefje">
         <span class="product-text">10x ¥1000 biljetten</span>
         <div class="cart-button" onclick="ManageStorage('yen1000')">
@@ -122,11 +144,11 @@ include_once("view/header.php");
         </div>
         <span class="beschrijving">Alle echtheidskenmerken gegarandeert</span>
         <span class="prijs">€ 399,95</span>
-      </div>
+      </div> -->
     </div>
     <!-- / ARTICLES -->
   </div>
   <!-- / CONTENT -->
   <?php
   include_once("view/footer.php")
-  ?>
+    ?>
