@@ -44,27 +44,33 @@ function DisplayStorage() { // if there is someting in storage it loads it and d
         }
         if (localStorage.getItem("euro10") !== null) {
             euro10 = localStorage.getItem("euro10");
-            document.getElementById("euro10display").innerHTML =  (euro10 * 10) + "x 10 euro" + "   (" + euro10 + ")";
+            // document.getElementById("euro10display").innerHTML =  (euro10 * 10) + "x 10 euro" + "   (" + euro10 + ")";
+            document.getElementById("euro10display").innerHTML = "10x 10 euro briefjes  " + "€ 19,95" + "   (" + euro10 + ")" + "   € " + (((19.95) * euro10).toFixed(2));
         }
         if (localStorage.getItem("euro20") !== null) {
             euro20 = localStorage.getItem("euro20");
-            document.getElementById("euro20display").innerHTML =  (euro20 * 10) + "x 20 euro" + "   (" + euro20 + ")";
+            // document.getElementById("euro20display").innerHTML =  (euro20 * 10) + "x 20 euro" + "   (" + euro20 + ")";
+            document.getElementById("euro20display").innerHTML = "10x 20 euro briefjes  " + "€ 29,95" + "   (" + euro20 + ")" + "   € " + (((29.95) * euro20).toFixed(2));
         }
         if (localStorage.getItem("euro50") !== null) {
             euro50 = localStorage.getItem("euro50");
-            document.getElementById("euro50display").innerHTML =  (euro50 * 10) + "x 50 euro" + "   (" + euro50 + ")";
+            // document.getElementById("euro50display").innerHTML =  (euro50 * 10) + "x 50 euro" + "   (" + euro50 + ")";
+            document.getElementById("euro50display").innerHTML = "10x 50 euro briefjes  " + "€ 69,95" + "   (" + euro50 + ")" + "   € " + (((69.95) * euro50).toFixed(2));
         }
         if (localStorage.getItem("euro100") !== null) {
             euro100 = localStorage.getItem("euro100");
-            document.getElementById("euro100display").innerHTML =  (euro100 * 10) + "x 100 euro" + "   (" + euro100 + ")";
+            // document.getElementById("euro100display").innerHTML =  (euro100 * 10) + "x 100 euro" + "   (" + euro100 + ")";
+            document.getElementById("euro100display").innerHTML = "10x 100 euro briefjes  " + "€ 149,95" + "   (" + euro100 + ")" + "   € " + (((149.95) * euro100).toFixed(2));
         }
         if (localStorage.getItem("euro200") !== null) {
             euro200 = localStorage.getItem("euro200");
-            document.getElementById("euro200display").innerHTML =  (euro200 * 10) + "x 200 euro" + "   (" + euro200 + ")";
+            // document.getElementById("euro200display").innerHTML =  (euro200 * 10) + "x 200 euro" + "   (" + euro200 + ")";
+            document.getElementById("euro200display").innerHTML = "10x 200 euro briefjes  " + "€ 299,95" + "   (" + euro200 + ")" + "   € " + (((299.95) * euro200).toFixed(2));
         }
         if (localStorage.getItem("euro500") !== null) {
             euro500 = localStorage.getItem("euro500");
-            document.getElementById("euro500display").innerHTML =  (euro500 * 10) + "x 500 euro" + "   (" + euro500 + ")";
+            // document.getElementById("euro500display").innerHTML =  (euro500 * 10) + "x 500 euro" + "   (" + euro500 + ")";
+            document.getElementById("euro500display").innerHTML = "10x 500 euro briefjes  " + "€ 899,95" + "   (" + euro500 + ")" + "   € " + (((899.95) * euro500).toFixed(2));
         }
         if (localStorage.getItem("dollar1") !== null) {
             dollar1 = localStorage.getItem("dollar1");
