@@ -28,7 +28,7 @@
         <ul>
             <li>Over ons</li>
             <li>Contactinformatie</li>
-            <li>Algemene voorwaarden</li>
+            <li><a href="AVV.html">Algemene voorwaarden</a></li>
             <li>Privacy beleid</li>
         </ul>
     </div>
