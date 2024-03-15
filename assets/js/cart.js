@@ -74,83 +74,90 @@ function DisplayStorage() { // if there is someting in storage it loads it and d
         }
         if (localStorage.getItem("dollar1") !== null) {
             dollar1 = localStorage.getItem("dollar1");
-            document.getElementById("dollar1display").innerHTML =  (dollar1 * 10) + "x 1 dollar" + "   (" + dollar1 + ")";
+            // document.getElementById("dollar1display").innerHTML =  (dollar1 * 10) + "x 1 dollar" + "   (" + dollar1 + ")";
+            document.getElementById("dollar1display").innerHTML = "10x 1 dollar briefjes  " + "€ 7,95" + "   (" + dollar1 + ")" + "   € " + (((7.95) * euro500).toFixed(2));
         }
         if (localStorage.getItem("dollar2") !== null) {
             dollar2 = localStorage.getItem("dollar2");
-            document.getElementById("dollar2display").innerHTML =  (dollar2 * 10) + "x 2 dollar" + "   (" + dollar2 + ")";
+            // document.getElementById("dollar2display").innerHTML =  (dollar2 * 10) + "x 2 dollar" + "   (" + dollar2 + ")";
+            document.getElementById("dollar2display").innerHTML = "10x 2 dollar briefjes  " + "€ 9,95" + "   (" + dollar2 + ")" + "   € " + (((9.95) * dollar2).toFixed(2));
         }
         if (localStorage.getItem("dollar5") !== null) {
             dollar5 = localStorage.getItem("dollar5");
-            document.getElementById("dollar5display").innerHTML =  (dollar5 * 10) + "x 5 dollar" + "   (" + dollar5 + ")";
+            // document.getElementById("dollar5display").innerHTML =  (dollar5 * 10) + "x 5 dollar" + "   (" + dollar5 + ")";
+            document.getElementById("dollar5display").innerHTML = "10x 5 dollar briefjes  " + "€ 39,95" + "   (" + dollar5 + ")" + "   € " + (((39.95) * dollar5).toFixed(2));
         }
         if (localStorage.getItem("dollar10") !== null) {
             dollar10 = localStorage.getItem("dollar10");
-            document.getElementById("dollar10display").innerHTML =  (dollar10 * 10) + "x 10 dollar" + "   (" + dollar10 + ")";
+            // document.getElementById("dollar10display").innerHTML =  (dollar10 * 10) + "x 10 dollar" + "   (" + dollar10 + ")";
+            document.getElementById("dollar10display").innerHTML = "10x 10 dollar briefjes  " + "€ 69,95" + "   (" + dollar10 + ")" + "   € " + (((69.95) * dollar10).toFixed(2));
         }
         if (localStorage.getItem("dollar20") !== null) {
             dollar20 = localStorage.getItem("dollar20");
-            document.getElementById("dollar20display").innerHTML =  (dollar20 * 10) + "x 20 dollar" + "   (" + dollar20 + ")";
+            // document.getElementById("dollar20display").innerHTML =  (dollar20 * 10) + "x 20 dollar" + "   (" + dollar20 + ")";
+            document.getElementById("dollar20display").innerHTML = "10x 20 dollar briefjes  " + "€ 149,95" + "   (" + dollar20 + ")" + "   € " + (((149.95) * dollar20).toFixed(2));
         }
         if (localStorage.getItem("dollar50") !== null) {
             dollar50 = localStorage.getItem("dollar50");
-            document.getElementById("dollar50display").innerHTML =  (dollar50 * 10) + "x 50 dollar" + "   (" + dollar50 + ")";
+            // document.getElementById("dollar50display").innerHTML =  (dollar50 * 10) + "x 50 dollar" + "   (" + dollar50 + ")";
+            document.getElementById("dollar50display").innerHTML = "10x 50 dollar briefjes  " + "€ 349,95" + "   (" + dollar50 + ")" + "   € " + (((349.95) * dollar50).toFixed(2));
         }
         if (localStorage.getItem("dollar100") !== null) {
             dollar100 = localStorage.getItem("dollar100");
-            document.getElementById("dollar100display").innerHTML =  (dollar100 * 10) + "x 100 dollar" + "   (" + dollar100 + ")";
+            // document.getElementById("dollar100display").innerHTML =  (dollar100 * 10) + "x 100 dollar" + "   (" + dollar100 + ")";
+            document.getElementById("dollar100display").innerHTML = "10x 100 dollar briefjes  " + "€ 849,95" + "   (" + dollar100 + ")" + "   € " + (((849.5) * dollar100).toFixed(2));
         }
         if (localStorage.getItem("yen1000") !== null) {
             yen1000 = localStorage.getItem("yen1000");
-            document.getElementById("yen1000display").innerHTML =  (yen1000 * 10) + "x 1000 yen" + "   (" + yen1000 + ")";
+            // document.getElementById("yen1000display").innerHTML =  (yen1000 * 10) + "x 1000 yen" + "   (" + yen1000 + ")";
         }
         if (localStorage.getItem("yen2000") !== null) {
             yen2000 = localStorage.getItem("yen2000");
-            document.getElementById("yen2000display").innerHTML =  (yen2000 * 10) + "x 2000 yen" + "   (" + yen2000 + ")";
+            // document.getElementById("yen2000display").innerHTML =  (yen2000 * 10) + "x 2000 yen" + "   (" + yen2000 + ")";
         }
         if (localStorage.getItem("yen5000") !== null) {
             yen5000 = localStorage.getItem("yen5000");
-            document.getElementById("yen5000display").innerHTML =  (yen5000 * 10) + "x 5000 yen" + "   (" + yen5000 + ")";
+            // document.getElementById("yen5000display").innerHTML =  (yen5000 * 10) + "x 5000 yen" + "   (" + yen5000 + ")";
         }
         if (localStorage.getItem("yen10000") !== null) {
             yen10000 = localStorage.getItem("yen10000");
-            document.getElementById("yen10000display").innerHTML =  (yen10000 * 10) + "x 10000 yen" + "   (" + yen10000 + ")";
+            // document.getElementById("yen10000display").innerHTML =  (yen10000 * 10) + "x 10000 yen" + "   (" + yen10000 + ")";
         }
         if (localStorage.getItem("pound5") !== null) {
             pound5 = localStorage.getItem("pound5");
-            document.getElementById("pound5display").innerHTML =  (pound5 * 10) + "x 5 pond" + "   (" + pound5 + ")";
+            // document.getElementById("pound5display").innerHTML =  (pound5 * 10) + "x 5 pond" + "   (" + pound5 + ")";
         }
         if (localStorage.getItem("pound10") !== null) {
             pound10 = localStorage.getItem("pound10");
-            document.getElementById("pound10display").innerHTML =  (pound10 * 10) + "x 10 pond" + "   (" + pound10 + ")";
+            // document.getElementById("pound10display").innerHTML =  (pound10 * 10) + "x 10 pond" + "   (" + pound10 + ")";
         }
         if (localStorage.getItem("pound20") !== null) {
             pound20 = localStorage.getItem("pound20");
-            document.getElementById("pound20display").innerHTML =  (pound20 * 10) + "x 20 pond" + "   (" + pound20 + ")";
+            // document.getElementById("pound20display").innerHTML =  (pound20 * 10) + "x 20 pond" + "   (" + pound20 + ")";
         }
         if (localStorage.getItem("pound50") !== null) {
             pound50 = localStorage.getItem("pound50");
-            document.getElementById("pound50display").innerHTML =  (pound50 * 10) + "x 50 pond" + "   (" + pound50 + ")";
+            // document.getElementById("pound50display").innerHTML =  (pound50 * 10) + "x 50 pond" + "   (" + pound50 + ")";
         }
         if (localStorage.getItem("roebel100") !== null) {
             roebel100 = localStorage.getItem("roebel100");
-            document.getElementById("roebel100display").innerHTML =  (roebel100 * 10) + "x 100 roebel" + "   (" + roebel100 + ")";
+            // document.getElementById("roebel100display").innerHTML =  (roebel100 * 10) + "x 100 roebel" + "   (" + roebel100 + ")";
         }
         if (localStorage.getItem("roebel200") !== null) {
             roebel200 = localStorage.getItem("roebel200");
-            document.getElementById("roebel200display").innerHTML =  (roebel200 * 10) + "x 200 roebel" + "   (" + roebel200 + ")";
+            // document.getElementById("roebel200display").innerHTML =  (roebel200 * 10) + "x 200 roebel" + "   (" + roebel200 + ")";
         }
         if (localStorage.getItem("roebel1000") !== null) {
             roebel1000 = localStorage.getItem("roebel1000");
-            document.getElementById("roebel1000display").innerHTML =  (roebel1000 * 10) + "x 1000 roebel" + "   (" + roebel1000 + ")";
+            // document.getElementById("roebel1000display").innerHTML =  (roebel1000 * 10) + "x 1000 roebel" + "   (" + roebel1000 + ")";
         }
         if (localStorage.getItem("roebel2000") !== null) {
             roebel2000 = localStorage.getItem("roebel2000");
-            document.getElementById("roebel2000display").innerHTML =  (roebel2000 * 10) + "x 2000 roebel" + "   (" + roebel2000 + ")";
+            // document.getElementById("roebel2000display").innerHTML =  (roebel2000 * 10) + "x 2000 roebel" + "   (" + roebel2000 + ")";
         }
         if (localStorage.getItem("roebel5000") !== null) {
             roebel5000 = localStorage.getItem("roebel5000");
-            document.getElementById("roebel5000display").innerHTML =  (roebel5000 * 10) + "x 5000 roebel" + "   (" + roebel5000 + ")";
+            // document.getElementById("roebel5000display").innerHTML =  (roebel5000 * 10) + "x 5000 roebel" + "   (" + roebel5000 + ")";
         }
     }
 }
