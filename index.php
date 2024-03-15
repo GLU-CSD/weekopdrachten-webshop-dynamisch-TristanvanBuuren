@@ -96,7 +96,6 @@ include_once("view/header.php");
         echo $currency["title"];
         echo "</span>";
         echo "<div class='cart-button' onclick='ManageStorage(" . '"' . $currency['msName'] . '"' . ")'>";
-        // echo "<img class='cart-img'/>";
         echo "<img class='cart-img' alt='cart' width='40' height='40' src=" . "'" . ($currency["photos"]["photo2"]) . "'" . "/>";
         echo "</div>";
         echo "<span class='beschrijving'>";
