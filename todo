@@ -19,4 +19,5 @@ Email bon sturen
 
 mod 2 VVV
 
-producten.php, hoe sinds meerdere pagina's
+doe php $currency['msName'] naar cart.js linken aan productpage.php met img
+met msName in JS doe senden naar productpage.php met een img

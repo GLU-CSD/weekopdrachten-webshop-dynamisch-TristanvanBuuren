@@ -21,9 +21,55 @@
 </head>
 
 <body>
+    <!-- <?php
+    include("view/products.php");
 
+    foreach ($currencies["euro"] as $currency) {
+        echo "<div class='product'>";
+        echo "<img src=" . "'" . ($currency["photos"]["photo1"]) . "'" . "  class='geld-briefje'/>";
+        // echo "<span class='product-text'>";
+        // echo $currency["title"];
+        // echo "</span>";
+        echo "<div class='cart-button' onclick='ManageStorage(" . '"' . $currency['msName'] . '"' . ")'>";
+        echo "<img class='cart-img' alt='cart' width='40' height='40' src=" . "'" . ($currency["photos"]["photo2"]) . "'" . "/>";
+        echo "</div>";
+        // echo "<span class='beschrijving'>";
+        // echo $currency["description"];
+        // echo "</span>";
+        // echo "<span class='prijs'>";
+        // echo $currency["price"];
+        // echo "</span>";
+        echo "</div>";
+    }
+    ?> -->
+    <div>
+        <div style="display: flex;">
+            <div style="background-color:black; width: 600px; height: 300px; color:white; display: flex-inline;"> IMG
+            </div>
+            <div style="display: flex-inline;">
+                <div class=""
+                    style="background-color:yellow; width: 200px; height: 100px; color:black; display: flex-inline;">
+                    mini-img
+                </div>
+                <div class=""
+                    style="background-color:yellow; width: 200px; height: 100px; color:black; display: flex-inline;">
+                    mini-img
+                </div>
+                <div class=""
+                    style="background-color:yellow; width: 200px; height: 100px; color:black; display: flex-inline;">
+                    mini-img
+                </div>
+            </div>
+            <div class="b-2-s-b"
+                style="background-color:green; width: 50px; height: 50px; color:white; display:flex-inline;">
+                Cart-button
+            </div>
+        </div>
 
+        <div>prijs</div>
+        <div>Beschrijfing</div>
+        <div>anders</div>
+    </div>
 </body>
-<script>
-
-</script>
+<script src="assets/js/cart.js"></script>
+<script src="assets/js/app.js"></script>
