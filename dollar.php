@@ -87,7 +87,7 @@ include_once("view/header.php");
     <!-- START ARTICLES -->
     <div class="articles">
       <?php
-      include("products.php");
+      include("view/products.php");
 
       foreach ($currencies["dollar"] as $currency) {
         echo "<div class='product'>";
