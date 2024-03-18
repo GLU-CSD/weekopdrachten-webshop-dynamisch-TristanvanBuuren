@@ -24,7 +24,7 @@
     <!-- <?php
     include("view/products.php");
 
-    foreach ($currencies["euro"] as $currency) {
+    foreach ($currencies[$_GET["category"]][$_GET["id"]] as $test) {
         echo "<div class='product'>";
         echo "<img src=" . "'" . ($currency["photos"]["photo1"]) . "'" . "  class='geld-briefje'/>";
         // echo "<span class='product-text'>";
@@ -41,6 +41,24 @@
         // echo "</span>";
         echo "</div>";
     }
+
+    // for($currencies["$_GET(category)"] . '$_GET(category)["id"]';){
+    //     echo "<div class='product'>";
+    //     echo "<img src=" . "'" . ($currency["photos"]["photo1"]) . "'" . "  class='geld-briefje'/>";
+    //     // echo "<span class='product-text'>";
+    //     // echo $currency["title"];
+    //     // echo "</span>";
+    //     echo "<div class='cart-button' onclick='ManageStorage(" . '"' . $currency['msName'] . '"' . ")'>";
+    //     echo "<img class='cart-img' alt='cart' width='40' height='40' src=" . "'" . ($currency["photos"]["photo2"]) . "'" . "/>";
+    //     echo "</div>";
+    //     // echo "<span class='beschrijving'>";
+    //     // echo $currency["description"];
+    //     // echo "</span>";
+    //     // echo "<span class='prijs'>";
+    //     // echo $currency["price"];
+    //     // echo "</span>";
+    //     echo "</div>";
+    // }
     ?> -->
     <div>
         <div style="background-color:navy; height: 50px; color:white;">HOME | CART | </div>

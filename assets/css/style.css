@@ -249,6 +249,8 @@
    font-size: larger;
    font-weight: bold;
    width: 80px;
+
+   text-decoration: none;
  }
 
  .cart-button {
@@ -500,6 +502,11 @@
 
  .c-p {
    cursor: pointer;
+ }
+
+ .td-none {
+   text-decoration: none;
+   color: black;
  }
 
  /* .pos-mid {} */
