@@ -43,8 +43,9 @@
     }
     ?> -->
     <div>
+        <div style="background-color:navy; height: 50px; color:white;">HOME | CART | </div>
         <div style="display: flex;">
-            <div style="background-color:black; width: 600px; height: 300px; color:white; display: flex-inline;"> IMG
+            <div style="background-color:gray; width: 600px; height: 300px; color:white; display: flex-inline;"> IMG
             </div>
             <div style="display: flex-inline;">
                 <div class=""
@@ -61,8 +62,12 @@
                 </div>
             </div>
             <div class="b-2-s-b"
-                style="background-color:green; width: 50px; height: 50px; color:white; display:flex-inline;">
-                Cart-button
+                style="background-color:green; width: 70px; height: 70px; color:white; display:flex-inline;">
+                Cart-button (adds to cart)
+            </div>
+            <div class="b-2-s-b"
+                style="background-color:blue; width: 70px; height: 70px; color:white; display:flex-inline;">
+                Buy-button (sends to buy page)
             </div>
         </div>
 

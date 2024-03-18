@@ -94,7 +94,7 @@ include_once("view/header.php");
         echo "<div class='product'>";
         echo "<img src=" . "'" . ($currency["photos"]["photo1"]) . "'" . "  class='geld-briefje'/>";
         echo "<span class='product-text'>";
-        echo $currency["title"];
+        echo "<a href='productpage.php?id=". $currency["id"] ."&category=". $currency["category"] ." '>" . $currency["title"] . "</a>";
         echo "</span>";
         echo "<div class='cart-button' onclick='ManageStorage(" . '"' . $currency['msName'] . '"' . ")'>";
         // echo "<img class='cart-img'/>";
