@@ -45,21 +45,22 @@
     <div>
         <div style="background-color:navy; height: 50px; color:white;">HOME | CART | </div>
         <div style="display: flex;">
-            <div class="mainImg" style="background-color:gray; width: 600px; height: 300px; color:white; display: flex-inline;"> IMG
-            </div>
+            <img id="mainImg"
+                style="background-color:gray; width: 600px; height: 300px; color:white; display: flex-inline;" />
+            <!-- </div> -->
             <div style="display: flex-inline;">
-                <div class="altImg" onclick="SwitchImg(this)"
-                    style="background-color:yellow; width: 200px; height: 100px; color:black; display: flex-inline;">
-                    mini-img
-                </div>
-                <div class="altImg" onclick="SwitchImg(this)"
-                    style="background-color:yellow; width: 200px; height: 100px; color:black; display: flex-inline;">
-                    mini-img
-                </div>
-                <div class="altImg" onclick="SwitchImg(this)"
-                    style="background-color:yellow; width: 200px; height: 100px; color:black; display: flex-inline;">
-                    mini-img
-                </div>
+                <img class="altImg" onclick="SwitchImg(this)"
+                    style="background-color:yellow; width: 200px; height: 100px; color:black; display: flex-inline;"
+                    src="https://picsum.photos/200/300" />
+                <!-- </div> -->
+                <img class="altImg" onclick="SwitchImg(this)"
+                    style="background-color:yellow; width: 200px; height: 100px; color:black; display: flex-inline;"
+                    src="https://picsum.photos/200/300" />
+                <!-- </div> -->
+                <img class="altImg" onclick="SwitchImg(this)"
+                    style="background-color:yellow; width: 200px; height: 100px; color:black; display: flex-inline;"
+                    src="https://picsum.photos/200/300" />
+                <!-- </div> -->
             </div>
             <div class="b-2-s-b"
                 style="background-color:green; width: 70px; height: 70px; color:white; display:flex-inline;">
@@ -76,5 +77,6 @@
         <div>anders</div>
     </div>
 </body>
+<script src="assets/js/product.js"></script>
 <script src="assets/js/cart.js"></script>
 <script src="assets/js/app.js"></script>
