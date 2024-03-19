@@ -26,7 +26,7 @@
 
     foreach ($currencies[$_GET["currency"]][$_GET["id"]] as $currency) {
         echo "<div class='product'>";
-        echo "<img src=" . "'" . ($currency["photos"]["photo1"]) . "'" . "  class='geld-briefje'/>";
+        echo "<img class='mainImg' src=" . "'" . ($currency["photos"]["photo1"]) . "'" . "  class='geld-briefje'/>";
         // echo "<span class='product-text'>";
         // echo $currency["title"];
         // echo "</span>";
@@ -45,18 +45,18 @@
     <div>
         <div style="background-color:navy; height: 50px; color:white;">HOME | CART | </div>
         <div style="display: flex;">
-            <div style="background-color:gray; width: 600px; height: 300px; color:white; display: flex-inline;"> IMG
+            <div class="mainImg" style="background-color:gray; width: 600px; height: 300px; color:white; display: flex-inline;"> IMG
             </div>
             <div style="display: flex-inline;">
-                <div class=""
+                <div class="altImg" onclick="SwitchImg(this)"
                     style="background-color:yellow; width: 200px; height: 100px; color:black; display: flex-inline;">
                     mini-img
                 </div>
-                <div class=""
+                <div class="altImg" onclick="SwitchImg(this)"
                     style="background-color:yellow; width: 200px; height: 100px; color:black; display: flex-inline;">
                     mini-img
                 </div>
-                <div class=""
+                <div class="altImg" onclick="SwitchImg(this)"
                     style="background-color:yellow; width: 200px; height: 100px; color:black; display: flex-inline;">
                     mini-img
                 </div>

@@ -1,5 +1,5 @@
-let mainImg = HTMLImageElement.src
+let mainImg =
 
-function switchImg(this){
-      
+function SwitchImg(element){
+
 }
