@@ -21,7 +21,7 @@
 </head>
 
 <body>
-    <?php
+    <!-- <?php
     include("view/products.php");
 
     foreach ($currencies[$_GET["currency"]][$_GET["id"]] as $currency) {
@@ -41,34 +41,33 @@
         // echo "</span>";
         echo "</div>";
     }
-    ?>
+    ?> -->
     <div>
-        <div style="background-color:navy; height: 50px; color:white;">HOME | CART | </div>
+        <div style="background-color:navy; height: 50px; color:white;">HOME | CART | CHECKOUT</div>
         <div style="display: flex;">
-            <img id="mainImg"
-                style="background-color:gray; width: 600px; height: 300px; color:white; display: flex-inline;" />
+            <img id="mainImg" style="background-color:gray; width: 600px; height: 300px; color:white;"
+                src="https://picsum.photos/200/400" />
             <!-- </div> -->
+            <div style="display: inline-flex; flex-direction: column;">
+                <img class="altImg" onclick="SwitchImg(this)" style="width: 200px; height: 100px; color:black;"
+                    src="https://picsum.photos/200/400" />
+                <!-- </div> -->
+                <img class="altImg" onclick="SwitchImg(this)" style="width: 200px; height: 100px; color:black;"
+                    src="https://picsum.photos/100/200" />
+                <!-- </div> -->
+                <img class="altImg" onclick="SwitchImg(this)" style="width: 200px; height: 100px; color:black;"
+                    src="https://picsum.photos/400/800" />
+                <!-- </div> -->
+            </div>
             <div style="display: flex-inline;">
-                <img class="altImg" onclick="SwitchImg(this)"
-                    style="background-color:yellow; width: 200px; height: 100px; color:black; display: flex-inline;"
-                    src="https://picsum.photos/200/300" />
-                <!-- </div> -->
-                <img class="altImg" onclick="SwitchImg(this)"
-                    style="background-color:yellow; width: 200px; height: 100px; color:black; display: flex-inline;"
-                    src="https://picsum.photos/200/300" />
-                <!-- </div> -->
-                <img class="altImg" onclick="SwitchImg(this)"
-                    style="background-color:yellow; width: 200px; height: 100px; color:black; display: flex-inline;"
-                    src="https://picsum.photos/200/300" />
-                <!-- </div> -->
-            </div>
-            <div class="b-2-s-b"
-                style="background-color:green; width: 70px; height: 70px; color:white; display:flex-inline;">
-                Cart-button (adds to cart)
-            </div>
-            <div class="b-2-s-b"
-                style="background-color:blue; width: 70px; height: 70px; color:white; display:flex-inline;">
-                Buy-button (sends to buy page)
+                <div class="b-2-s-b"
+                    style="background-color:green; width: 300px; height: 100px; color:white; display:flex-inline; border-radius: 20px; margin-top: 25px;">
+                    Cart-button (adds to cart)
+                </div>
+                <div class="b-2-s-b"
+                    style="background-color:blue; width: 300px; height: 100px; color:white; display:flex-inline;border-radius: 20px; margin-top: 25px;">
+                    Buy-button (sends to buy page)
+                </div>
             </div>
         </div>
 
