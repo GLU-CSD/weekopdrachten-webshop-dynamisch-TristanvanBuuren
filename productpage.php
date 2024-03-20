@@ -51,12 +51,12 @@
             src="https://picsum.photos/200/400" />';
             echo '<div style="display: inline-flex; flex-direction: column;">';
             echo '<img class="altImg" onclick="SwitchImg(this)" style="width: 200px; height: 100px; color:black;"
+            src="https://picsum.photos/400/800" />';
+            echo '<img class="altImg" onclick="SwitchImg(this)" style="width: 200px; height: 100px; color:black;"
             src="https://picsum.photos/200/400" />';
             echo '<img class="altImg" onclick="SwitchImg(this)" style="width: 200px; height: 100px; color:black;"
             src="https://picsum.photos/100/200" />';
-            echo '<img class="altImg" onclick="SwitchImg(this)" style="width: 200px; height: 100px; color:black;"
-            src="https://picsum.photos/100/200" />';
-            echo 'Cart-button (adds to cart)';
+            echo '</div>';
             echo '<div style="display: flex-inline;">';
             echo '<div class="b-2-s-b"
             style="background-color:green; width: 300px; height: 100px; color:white; display:flex-inline; border-radius: 20px; margin-top: 25px;">';
@@ -82,9 +82,9 @@
                 src="https://picsum.photos/200/400" />
             <div style="display: inline-flex; flex-direction: column;">
                 <img class="altImg" onclick="SwitchImg(this)" style="width: 200px; height: 100px; color:black;"
-                    src="https://picsum.photos/200/400" />
+                    src="https://picsum.photos/400/800" />
                 <img class="altImg" onclick="SwitchImg(this)" style="width: 200px; height: 100px; color:black;"
-                    src="https://picsum.photos/100/200" />
+                    src="https://picsum.photos/200/400" />
                 <img class="altImg" onclick="SwitchImg(this)" style="width: 200px; height: 100px; color:black;"
                     src="https://picsum.photos/100/200" />
             </div>
