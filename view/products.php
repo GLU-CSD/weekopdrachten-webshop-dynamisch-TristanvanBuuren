@@ -11,7 +11,8 @@ $currencies = [
             "price" => "€ 14,95",
             "photos" => [
                 "photo1" => "./assets/img/5_euro.jpg",
-                "photo2" => "./assets/img/cart.png"
+                "photo2" => "./assets/img/cart.png",
+                "photo3" => "./assets/img/5_euro_back.jpg",
             ]
         ],
         [

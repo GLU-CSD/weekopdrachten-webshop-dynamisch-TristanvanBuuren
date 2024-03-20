@@ -464,6 +464,25 @@
  }
 
  /* / BESTEL FORM */
+
+ /* PRODUCT PAGE */
+ #mainImg {
+   width: 600px;
+   height: 300px;
+ }
+
+ .altImg {
+   width: 200px;
+   height: 100px;
+ }
+
+
+
+
+
+
+ /* / PRODUCT PAGE */
+
  /*  STYLING */
 
  .w-30 {

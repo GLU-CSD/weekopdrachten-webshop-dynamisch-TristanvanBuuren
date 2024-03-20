@@ -29,7 +29,7 @@
     foreach ($currencies[$cat] as $currency) {
         if ($currency["id"] == $id) {
             // echo "<div class='product'>";
-            // echo "<img class='mainImg' src=" . "'" . ($currency["photos"]["photo1"]) . "'" . "  class='geld-briefje'/>";
+            // echo "<img id='mainImg' src=" . "'" . ($currency["photos"]["photo1"]) . "'" . "  class='geld-briefje'/>";
             // // echo "<span class='product-text'>";
             // // echo $currency["title"];
             // // echo "</span>";
@@ -47,15 +47,11 @@
             echo '<div>';
             echo '<div style="background-color:navy; height: 50px; color:white;">HOME | CART | CHECKOUT</div>';
             echo '<div style="display: flex;">';
-            echo '<img id="mainImg" style="background-color:gray; width: 600px; height: 300px; color:white;"
-            src="https://picsum.photos/200/400" />';
+            echo "<img id='mainImg' src=" . "'" . ($currency["photos"]["photo1"]) . "'" . "  class='geld-briefje'/>";
             echo '<div style="display: inline-flex; flex-direction: column;">';
-            echo '<img class="altImg" onclick="SwitchImg(this)" style="width: 200px; height: 100px; color:black;"
-            src="https://picsum.photos/400/800" />';
-            echo '<img class="altImg" onclick="SwitchImg(this)" style="width: 200px; height: 100px; color:black;"
-            src="https://picsum.photos/200/400" />';
-            echo '<img class="altImg" onclick="SwitchImg(this)" style="width: 200px; height: 100px; color:black;"
-            src="https://picsum.photos/100/200" />';
+            echo '<img class="altImg" onclick="SwitchImg(this)" src="' . ($currency["photos"]["photo1"]) . '"' . "  class='geld-briefje'/>";
+            echo '<img class="altImg" onclick="SwitchImg(this)" src="' . ($currency["photos"]["photo3"]) . '"' . "  class='geld-briefje'/>";
+            echo '<img class="altImg" onclick="SwitchImg(this)" src="https://picsum.photos/100/200" />';
             echo '</div>';
             echo '<div style="display: flex-inline;">';
             echo '<div class="b-2-s-b"
@@ -68,18 +64,18 @@
             echo '</div>';
             echo '</div>';
             echo '</div>';
-            echo '<div>prijs</div>';
+            echo '<div>' . $currency["price"] . '</div>';
             echo '<div>Beschrijfing</div>';
             echo '<div>Anders</div>';
             echo '</div>';
         }
     }
     ?>
-    <div>
+    <!-- <div>
         <div style="background-color:navy; height: 50px; color:white;">HOME | CART | CHECKOUT</div>
         <div style="display: flex;">
             <img id="mainImg" style="background-color:gray; width: 600px; height: 300px; color:white;"
-                src="https://picsum.photos/200/400" />
+                src="https://picsum.photos/400/800" />
             <div style="display: inline-flex; flex-direction: column;">
                 <img class="altImg" onclick="SwitchImg(this)" style="width: 200px; height: 100px; color:black;"
                     src="https://picsum.photos/400/800" />
@@ -103,7 +99,7 @@
         <div>prijs</div>
         <div>Beschrijfing</div>
         <div>Anders</div>
-    </div>
+    </div> -->
 </body>
 <script src="assets/js/product.js"></script>
 <script src="assets/js/cart.js"></script>
