@@ -94,7 +94,7 @@ include_once("view/header.php");
         echo "<a href='productpage.php?id=" . $currency["id"] . "&category=" . $currency["category"] . " '>" . "<img src=" . "'" . ($currency["photos"]["photo1"]) . "'" . "  class='geld-briefje'/>" . "</a>";
         echo "<span class='product-text'>";
         // echo "<a class='td-none' href='productpage.php?id=" . $currency["id"] . "&category=" . $currency["category"] . " '>" . $currency["title"] . "</a>";
-        echo "<a class='td-none' href='productpage.php?id=" . $currency["id"] . $key=("currency") . " '>" . $currency["title"] . "</a>";
+        echo "<a class='td-none' href='productpage.php?id=" . $currency["id"] . "&cat=" . $currency["category"] . " '>" . $currency["title"] . "</a>";
         echo "</span>";
         echo "<div class='cart-button' onclick='ManageStorage(" . '"' . $currency['msName'] . '"' . ")'>";
         echo "<img class='cart-img' alt='cart' width='40' height='40' src=" . "'" . ($currency["photos"]["photo2"]) . "'" . "/>";
