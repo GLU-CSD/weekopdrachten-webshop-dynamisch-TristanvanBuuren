@@ -91,7 +91,7 @@ include_once("view/header.php");
 
       foreach ($currencies["euro"] as $currency) {
         echo "<div class='product'>";
-        echo "<a href='productpage.php?id=" . $currency["id"] . "&category=" . $currency["category"] . " '>" . "<img src=" . "'" . ($currency["photos"]["photo1"]) . "'" . "  class='geld-briefje'/>" . "</a>";
+        echo "<a href='productpage.php?id=" . $currency["id"] . "&cat=" . $currency["category"] . " '>" . "<img src=" . "'" . ($currency["photos"]["photo1"]) . "'" . "  class='geld-briefje'/>" . "</a>";
         echo "<span class='product-text'>";
         // echo "<a class='td-none' href='productpage.php?id=" . $currency["id"] . "&category=" . $currency["category"] . " '>" . $currency["title"] . "</a>";
         echo "<a class='td-none' href='productpage.php?id=" . $currency["id"] . "&cat=" . $currency["category"] . " '>" . $currency["title"] . "</a>";

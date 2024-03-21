@@ -24,7 +24,8 @@ $currencies = [
             "price" => "€ 19,95",
             "photos" => [
                 "photo1" => "./assets/img/10_euro.jpg",
-                "photo2" => "./assets/img/cart.png"
+                "photo2" => "./assets/img/cart.png",
+                "photo3" => "./assets/img/10_euro_back.jpg",
             ]
         ],
         [
@@ -36,7 +37,8 @@ $currencies = [
             "price" => "€ 29,95",
             "photos" => [
                 "photo1" => "./assets/img/20_euro.jpg",
-                "photo2" => "./assets/img/cart.png"
+                "photo2" => "./assets/img/cart.png",
+                "photo3" => "./assets/img/20_euro_back.jpg",
             ]
         ],
         [
@@ -48,7 +50,8 @@ $currencies = [
             "price" => "€ 69,95",
             "photos" => [
                 "photo1" => "./assets/img/50_euro.jpg",
-                "photo2" => "./assets/img/cart.png"
+                "photo2" => "./assets/img/cart.png",
+                "photo3" => "./assets/img/50_euro_back.jpg",
             ]
         ],
         [
@@ -60,7 +63,8 @@ $currencies = [
             "price" => "€ 149,95",
             "photos" => [
                 "photo1" => "./assets/img/100_euro.jpg",
-                "photo2" => "./assets/img/cart.png"
+                "photo2" => "./assets/img/cart.png",
+                "photo3" => "./assets/img/100_euro_back.jpg",
             ]
         ],
         [
@@ -72,7 +76,8 @@ $currencies = [
             "price" => "€ 299,95",
             "photos" => [
                 "photo1" => "./assets/img/200_euro.jpg",
-                "photo2" => "./assets/img/cart.png"
+                "photo2" => "./assets/img/cart.png",
+                "photo3" => "./assets/img/200_euro_back.jpg",
             ]
         ],
         [
@@ -84,7 +89,8 @@ $currencies = [
             "price" => "€ 899,95",
             "photos" => [
                 "photo1" => "./assets/img/500_euro.jpg",
-                "photo2" => "./assets/img/cart.png"
+                "photo2" => "./assets/img/cart.png",
+                "photo3" => "./assets/img/500_euro_back.jpg",
             ]
         ]
     ],
@@ -98,7 +104,8 @@ $currencies = [
             "price" => "€ 7,95",
             "photos" => [
                 "photo1" => "./assets/img/1_dollar.jpg",
-                "photo2" => "./assets/img/cart.png"
+                "photo2" => "./assets/img/cart.png",
+                "photo3" => "./assets/img/1_dollar_back.jpg",
             ]
         ],
         [
@@ -110,7 +117,8 @@ $currencies = [
             "price" => "€ 9,95",
             "photos" => [
                 "photo1" => "./assets/img/2_dollar.jpg",
-                "photo2" => "./assets/img/cart.png"
+                "photo2" => "./assets/img/cart.png",
+                "photo3" => "./assets/img/2_dollar_back.jpg",
             ]
         ],
         [
@@ -122,7 +130,8 @@ $currencies = [
             "price" => "€ 39,95",
             "photos" => [
                 "photo1" => "./assets/img/5_dollar.jpg",
-                "photo2" => "./assets/img/cart.png"
+                "photo2" => "./assets/img/cart.png",
+                "photo3" => "./assets/img/5_dollar_back.jpg",
             ]
         ],
         [
@@ -135,7 +144,8 @@ $currencies = [
             "price" => "€ 69,95",
             "photos" => [
                 "photo1" => "./assets/img/10_dollar.jpg",
-                "photo2" => "./assets/img/cart.png"
+                "photo2" => "./assets/img/cart.png",
+                "photo3" => "./assets/img/10_dollar_back.jpg",
             ]
         ],
         [
@@ -147,7 +157,8 @@ $currencies = [
             "price" => "€ 149,95",
             "photos" => [
                 "photo1" => "./assets/img/20_dollar.jpg",
-                "photo2" => "./assets/img/cart.png"
+                "photo2" => "./assets/img/cart.png",
+                "photo3" => "./assets/img/20_dollar_back.jpg",
             ]
         ],
         [
@@ -159,7 +170,8 @@ $currencies = [
             "price" => "€ 349,95",
             "photos" => [
                 "photo1" => "./assets/img/50_dollar.jpg",
-                "photo2" => "./assets/img/cart.png"
+                "photo2" => "./assets/img/cart.png",
+                "photo3" => "./assets/img/50_dollar_back.jpg",
             ]
         ],
         [
@@ -171,7 +183,8 @@ $currencies = [
             "price" => "€ 849,95",
             "photos" => [
                 "photo1" => "./assets/img/100_dollar.jpg",
-                "photo2" => "./assets/img/cart.png"
+                "photo2" => "./assets/img/cart.png",
+                "photo3" => "./assets/img/100_dollar_back.jpg",
             ]
         ]
     ],
