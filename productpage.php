@@ -53,19 +53,20 @@
             echo '<img class="altImg" onclick="SwitchImg(this)" src="' . ($currency["photos"]["photo3"]) . '"' . "  class='geld-briefje'/>";
             echo '<img class="altImg" onclick="SwitchImg(this)" src="https://picsum.photos/100/200" />';
             echo '</div>';
-            echo '<div style="display: flex-inline;">';
-            echo '<div class="b-2-s-b"
-            style="background-color:green; width: 300px; height: 100px; color:white; display:flex-inline; border-radius: 20px; margin-top: 25px;">';
-            echo 'Cart-button (adds to cart)';
+            echo '<div>';
+            echo '<div class="product-page-buttons">';
+            echo '<img class="addtocart" src="' . $currency["photos"]["photo2"] . '" onclick="ManageStorage(' . $currency["msName"] . ')">';
+            // echo 'Cart-button (adds to cart)';
+            // echo '</div>';
+            echo '<div class="buynow">';
+            echo '<img src="assets/img/register.png" class="register">';
+            echo 'BUY NOW';
             echo '</div>';
-            echo '<div class="b-2-s-b"
-            style="background-color:blue; width: 300px; height: 100px; color:white; display:flex-inline;border-radius: 20px; margin-top: 25px;">';
-            echo 'Buy-button (sends to buy page)';
+            echo '</div>';
+            echo '<div class="product-prijs">' . $currency["price"] . '</div>';
             echo '</div>';
             echo '</div>';
-            echo '</div>';
-            echo '<div>' . $currency["price"] . '</div>';
-            echo '<div>Beschrijfing</div>';
+            echo '<div>'.$currency["description"] . '</div>';
             echo '<div>Anders</div>';
             echo '</div>';
         }

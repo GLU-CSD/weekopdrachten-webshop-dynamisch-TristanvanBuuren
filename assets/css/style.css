@@ -476,8 +476,49 @@
    height: 100px;
  }
 
+ .product-page-buttons {
+   display: flex;
+   margin-top: 25px;
+ }
 
+ .product-prijs {
+   margin-left: 10px;
+   margin-top: 20px;
 
+   font-family: arial;
+   font-size: 30px;
+   font-weight: 700;
+ }
+
+ .addtocart {
+   border: 2px solid black;
+   background-color: skyblue;
+   width: 100px;
+   height: 100px;
+   color: white;
+   border-radius: 10px;
+   margin-left: 10px;
+ }
+
+ .buynow {
+   border: 2px solid black;
+   display: flex;
+   background-color: orange;
+   width: 300px;
+   height: 100px;
+   color: white;
+   border-radius: 10px;
+   margin-left: 10px;
+   align-items: center;
+   font-size: 40px;
+ }
+
+ .register {
+   width: 96px;
+   height: 96px;
+   color: white;
+   padding: 2px;
+ }
 
 
 
