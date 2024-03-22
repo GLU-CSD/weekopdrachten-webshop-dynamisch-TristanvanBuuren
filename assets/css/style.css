@@ -571,6 +571,10 @@
    color: black;
  }
 
+ .dis-none {
+  display: none;
+ }
+
  /* .pos-mid {} */
 
  /* Hieronder staan alle stijles voor de fonts  */

@@ -13,6 +13,7 @@ $currencies = [
                 "photo1" => "./assets/img/5_euro.jpg",
                 "photo2" => "./assets/img/cart.png",
                 "photo3" => "./assets/img/5_euro_back.jpg",
+                "photo4" => "./assets/img/5_euro_detail.jpg",
             ]
         ],
         [
@@ -26,6 +27,7 @@ $currencies = [
                 "photo1" => "./assets/img/10_euro.jpg",
                 "photo2" => "./assets/img/cart.png",
                 "photo3" => "./assets/img/10_euro_back.jpg",
+                "photo4" => "./assets/img/10_euro_detail.jpg"
             ]
         ],
         [
@@ -39,6 +41,7 @@ $currencies = [
                 "photo1" => "./assets/img/20_euro.jpg",
                 "photo2" => "./assets/img/cart.png",
                 "photo3" => "./assets/img/20_euro_back.jpg",
+                "photo4" => "./assets/img/20_euro_detail.jpg",
             ]
         ],
         [
@@ -52,6 +55,7 @@ $currencies = [
                 "photo1" => "./assets/img/50_euro.jpg",
                 "photo2" => "./assets/img/cart.png",
                 "photo3" => "./assets/img/50_euro_back.jpg",
+                "photo4" => "./assets/img/50_euro_detail.jpg",
             ]
         ],
         [
@@ -65,6 +69,7 @@ $currencies = [
                 "photo1" => "./assets/img/100_euro.jpg",
                 "photo2" => "./assets/img/cart.png",
                 "photo3" => "./assets/img/100_euro_back.jpg",
+                "photo4" => "./assets/img/100_euro_detail.jpg",
             ]
         ],
         [
@@ -78,6 +83,7 @@ $currencies = [
                 "photo1" => "./assets/img/200_euro.jpg",
                 "photo2" => "./assets/img/cart.png",
                 "photo3" => "./assets/img/200_euro_back.jpg",
+                "photo4" => "./assets/img/200_euro_detail.jpg",
             ]
         ],
         [
@@ -91,6 +97,7 @@ $currencies = [
                 "photo1" => "./assets/img/500_euro.jpg",
                 "photo2" => "./assets/img/cart.png",
                 "photo3" => "./assets/img/500_euro_back.jpg",
+                "photo4" => "./assets/img/500_euro_detail.jpg",
             ]
         ]
     ],
@@ -106,6 +113,7 @@ $currencies = [
                 "photo1" => "./assets/img/1_dollar.jpg",
                 "photo2" => "./assets/img/cart.png",
                 "photo3" => "./assets/img/1_dollar_back.jpg",
+                "photo4" => "./assets/img/1_dollar_detail.jpg",
             ]
         ],
         [
@@ -119,6 +127,7 @@ $currencies = [
                 "photo1" => "./assets/img/2_dollar.jpg",
                 "photo2" => "./assets/img/cart.png",
                 "photo3" => "./assets/img/2_dollar_back.jpg",
+                "photo4" => "./assets/img/2_dollar_detail.jpg",
             ]
         ],
         [
@@ -132,6 +141,7 @@ $currencies = [
                 "photo1" => "./assets/img/5_dollar.jpg",
                 "photo2" => "./assets/img/cart.png",
                 "photo3" => "./assets/img/5_dollar_back.jpg",
+                "photo4" => "./assets/img/5_dollar_detail.jpg",
             ]
         ],
         [
@@ -146,6 +156,7 @@ $currencies = [
                 "photo1" => "./assets/img/10_dollar.jpg",
                 "photo2" => "./assets/img/cart.png",
                 "photo3" => "./assets/img/10_dollar_back.jpg",
+                "photo4" => "./assets/img/10_dollar_detail.jpg",
             ]
         ],
         [
@@ -159,6 +170,7 @@ $currencies = [
                 "photo1" => "./assets/img/20_dollar.jpg",
                 "photo2" => "./assets/img/cart.png",
                 "photo3" => "./assets/img/20_dollar_back.jpg",
+                "photo4" => "./assets/img/20_dollar_detail.jpg",
             ]
         ],
         [
@@ -172,6 +184,7 @@ $currencies = [
                 "photo1" => "./assets/img/50_dollar.jpg",
                 "photo2" => "./assets/img/cart.png",
                 "photo3" => "./assets/img/50_dollar_back.jpg",
+                "photo4" => "./assets/img/50_dollar_detail.jpg",
             ]
         ],
         [
@@ -185,12 +198,12 @@ $currencies = [
                 "photo1" => "./assets/img/100_dollar.jpg",
                 "photo2" => "./assets/img/cart.png",
                 "photo3" => "./assets/img/100_dollar_back.jpg",
+                "photo4" => "./assets/img/100_dollar_detail.jpg",
             ]
         ]
     ],
     "yen" => [
         [
-
             "id" => "0",
             "title" => "10x ¥1000 biljetten",
             "description" => "Alle echtheidskenmerken gegarandeert",
@@ -201,6 +214,7 @@ $currencies = [
                 "photo1" => "./assets/img/1000_yen.png",
                 "photo2" => "./assets/img/cart.png",
                 "photo3" => "./assets/img/1000_yen_back.png",
+                "photo4" => "./assets/img/1000_yen_detail.png",
             ]
         ],
         [
@@ -214,6 +228,7 @@ $currencies = [
                 "photo1" => "./assets/img/2000_yen.png",
                 "photo2" => "./assets/img/cart.png",
                 "photo3" => "./assets/img/2000_yen_back.png",
+                "photo4" => "./assets/img/2000_yen_detail.png",
             ]
         ],
         [
@@ -227,6 +242,7 @@ $currencies = [
                 "photo1" => "./assets/img/5000_yen.png",
                 "photo2" => "./assets/img/cart.png",
                 "photo3" => "./assets/img/5000_yen_back.png",
+                "photo4" => "./assets/img/5000_yen_detail.png",
             ]
         ],
         [
@@ -240,6 +256,7 @@ $currencies = [
                 "photo1" => "./assets/img/10000_yen.png",
                 "photo2" => "./assets/img/cart.png",
                 "photo3" => "./assets/img/10000_yen_back.png",
+                "photo4" => "./assets/img/10000_yen_detail.png",
             ]
         ]
     ],
@@ -255,6 +272,7 @@ $currencies = [
                 "photo1" => "./assets/img/5_pounds.jpg",
                 "photo2" => "./assets/img/cart.png",
                 "photo3" => "./assets/img/5_pounds_back.jpg",
+                "photo4" => "./assets/img/5_pounds_detail.jpg",
             ]
         ],
         [
@@ -268,6 +286,7 @@ $currencies = [
                 "photo1" => "./assets/img/10_pounds.jpg",
                 "photo2" => "./assets/img/cart.png",
                 "photo3" => "./assets/img/10_pounds_back.jpg",
+                "photo4" => "./assets/img/10_pounds_detail.jpg",
             ]
         ],
         [
@@ -281,6 +300,7 @@ $currencies = [
                 "photo1" => "./assets/img/20_pounds.jpg",
                 "photo2" => "./assets/img/cart.png",
                 "photo3" => "./assets/img/20_pounds_back.jpg",
+                "photo4" => "./assets/img/20_pounds_detail.jpg",
             ]
         ],
         [
@@ -294,6 +314,7 @@ $currencies = [
                 "photo1" => "./assets/img/50_pounds.jpg",
                 "photo2" => "./assets/img/cart.png",
                 "photo3" => "./assets/img/50_pounds_back.jpg",
+                "photo4" => "./assets/img/50_pounds_detail.jpg",
             ]
         ]
     ],

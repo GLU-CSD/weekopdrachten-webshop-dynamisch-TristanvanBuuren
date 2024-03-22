@@ -6,51 +6,42 @@ $cat = $_GET["cat"];
 $id = $_GET["id"];
 foreach ($currencies[$cat] as $currency) {
     if ($currency["id"] == $id) {
-        // echo "<div class='product'>";
-        // echo "<img id='mainImg' src=" . "'" . ($currency["photos"]["photo1"]) . "'" . "  class='geld-briefje'/>";
-        // // echo "<span class='product-text'>";
-        // // echo $currency["title"];
-        // // echo "</span>";
-        // echo "<div class='cart-button' onclick='ManageStorage(" . '"' . $currency['msName'] . '"' . ")'>";
-        // echo "<img class='cart-img' alt='cart' width='40' height='40' src=" . "'" . ($currency["photos"]["photo2"]) . "'" . "/>";
-        // echo "</div>";
-        // // echo "<span class='beschrijving'>";
-        // // echo $currency["description"];
-        // // echo "</span>";
-        // // echo "<span class='prijs'>";
-        // // echo $currency["price"];
-        // // echo "</span>";
-        // echo "</div>";
-
-        echo '<div>';
-        // echo '<div style="background-color:navy; height: 50px; color:white;">HOME | CART | CHECKOUT</div>';
-        echo '<div style="display: flex;">';
-        echo "<img id='mainImg' src=" . "'" . ($currency["photos"]["photo1"]) . "'" . "  class='geld-briefje'/>";
-        echo '<div style="display: inline-flex; flex-direction: column;">';
-        echo '<img class="altImg" onclick="SwitchImg(this)" src="' . ($currency["photos"]["photo1"]) . '"' . "  class='geld-briefje'/>";
-        echo '<img class="altImg" onclick="SwitchImg(this)" src="' . ($currency["photos"]["photo3"]) . '"' . "  class='geld-briefje'/>";
-        echo '<img class="altImg" onclick="SwitchImg(this)" src="https://picsum.photos/100/200" />';
-        echo '</div>';
-        echo '<div>';
-        echo '<div class="product-page-buttons">';
-        echo '<img class="addtocart" src="' . $currency["photos"]["photo2"] . '" onclick="ManageStorage(' . $currency["msName"] . ')">';
-        // echo 'Cart-button (adds to cart)';
-        // echo '</div>';
-        echo '<div class="buynow">';
-        echo '<img src="assets/img/register.png" class="register">';
-        echo 'BUY NOW';
-        echo '</div>';
-        echo '</div>';
-        echo '<div class="product-prijs">' . $currency["price"] . '</div>';
-        echo '</div>';
-        echo '</div>';
-        echo '<div>' . $currency["description"] . '</div>';
-        echo '<div>Anders</div>';
-        echo '</div>';
+        ?>
+        <div>
+            <div style="background-color:navy; height: 50px; color:white;">HOME | CART | CHECKOUT <p id="counter"
+                    class="dis-none">(0)</p>
+            </div>
+            <div style="display: flex;">
+                <img id='mainImg' src=' <?php echo $currency["photos"]["photo1"]; ?>' class='geld-briefje' />
+                <div style="display: inline-flex; flex-direction: column;">
+                    <img class="altImg" onclick="SwitchImg(this)" src='<?php echo $currency["photos"]["photo1"] ?>'
+                        class='geld-briefje' />
+                    <img class="altImg" onclick="SwitchImg(this)" src='<?php echo $currency["photos"]["photo3"] ?>'
+                        class='geld-briefje' />
+                    <img class="altImg" onclick="SwitchImg(this)" src='<?php echo $currency["photos"]["photo4"] ?>'
+                        class='geld-briefje' />
+                </div>
+                <div>
+                    <div class="product-page-buttons">
+                        <img class="addtocart" src='<?php echo $currency["photos"]["photo2"] ?>'
+                            onclick="ManageStorage('<?php echo $currency['msName'] ?>')">
+                        <div class="buynow">
+                            <img src="assets/img/register.png" class="register">BUY NOW
+                        </div>
+                    </div>
+                    <div class="product-prijs">
+                        <?php echo $currency["price"] ?>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <?php echo $currency["description"] ?>
+            </div>
+            <div>Anders</div>
+        </div>
+        <?php
     }
 }
-?>
-<?php
 echo "<div id='border'></div>";
 include_once ("view/footer.php");
 ?>
