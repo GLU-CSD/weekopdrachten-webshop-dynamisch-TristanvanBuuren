@@ -19,10 +19,77 @@
         </style>
       </head>
 <body onLoad="DisplayStorage()">
-    <a href="index.php" class="fake-button">Back</a>
-    <div onclick="ClearStorage(); window.location.reload()" class="fake-button">Clear All</div>
-    
-    <fieldset>
+    <div style="display: flex;">
+        <a href="index.php" class="fake-button">Back</a>
+        <div onclick="ClearStorage(); window.location.reload()" class="fake-button">Clear All</div>
+        <div id="date">test</div>
+    </div>
+    <div>
+        <p id="euro5display"></p>
+        <p id="euro10display"></p>
+        <p id="euro20display"></p>
+        <p id="euro50display"></p>
+        <p id="euro100display"></p>
+        <p id="euro200display"></p>
+        <p id="euro500display"></p>
+        <p id="dollar1display"></p>
+        <p id="dollar2display"></p>
+        <p id="dollar5display"></p>
+        <p id="dollar10display"></p>
+        <p id="dollar20display"></p>
+        <p id="dollar50display"></p>
+        <p id="dollar100display"></p>
+        <p id="yen1000display"></p>
+        <p id="yen2000display"></p>
+        <p id="yen5000display"></p>
+        <p id="yen10000display"></p>
+        <p id="pound5display"></p>
+        <p id="pound10display"></p>
+        <p id="pound20display"></p>
+        <p id="pound50display"></p>
+        <p id="roebel100display"></p>
+        <p id="roebel200display"></p>
+        <p id="roebel1000display"></p>
+        <p id="roebel2000display"></p>
+        <p id="roebel5000display"></p>
+    </div>
+    <!-- <div>
+    <br>
+    <div style="width: max; height: 100px;">
+        <p id="euro5display" class="moneydisplay"></p>
+        <p id="euro10display" class="moneydisplay"></p>
+        <p id="euro20display" class="moneydisplay"></p>
+        <p id="euro50display" class="moneydisplay"></p>
+        <p id="euro100display" class="moneydisplay"></p>
+        <p id="euro200display" class="moneydisplay"></p>
+        <p id="euro500display" class="moneydisplay"></p>
+        <p id="dollar1display" class="moneydisplay"></p>
+        <p id="dollar2display" class="moneydisplay"></p>
+        <p id="dollar5display" class="moneydisplay"></p>
+        <p id="dollar10display" class="moneydisplay"></p>
+        <p id="dollar20display" class="moneydisplay"></p>
+        <p id="dollar50display" class="moneydisplay"></p>
+        <p id="dollar100display" class="moneydisplay"></p>
+        <p id="yen1000display" class="moneydisplay"></p>
+        <p id="yen2000display" class="moneydisplay"></p>
+        <p id="yen5000display" class="moneydisplay"></p>
+        <p id="yen10000display" class="moneydisplay"></p>
+        <p id="pound5display" class="moneydisplay"></p>
+        <p id="pound10display" class="moneydisplay"></p>
+        <p id="pound20display" class="moneydisplay"></p>
+        <p id="pound50display" class="moneydisplay"></p>
+        <p id="roebel100display" class="moneydisplay"></p>
+        <p id="roebel200display" class="moneydisplay"></p>
+        <p id="roebel1000display" class="moneydisplay"></p>
+        <p id="roebel2000display" class="moneydisplay"></p>
+        <p id="roebel5000display" class="moneydisplay"></p>
+    </div>
+    <br><br><br>
+    <div style="background-color: gray; width: all; height: 100px; display: flex;"><div style="background-color: blue; width: 20%; height: 100px;"></div><div style="background-color: yellow; width: 20%; height: 100px;"></div><div style="background-color: green; width: 20%; height: 100px;"></div><div style="background-color: red; width: 20%; height: 100px;">BTW: 21%</div><div style="background-color: purple; width: 20%; height: 100px;">TOTAALL BTW BEDRAG</div></div>
+    <div style="width: all; height: 100px; display: flex;"><div style="width: 20%; height: 100px;"></div><div style="width: 20%; height: 100px;"></div><div style="width: 20%; height: 100px;"></div><div style="width: 20%; height: 100px;"></div><div style="width: 20%; height: 100px;">TOTAAL PRIJS</div></div>
+   </div> -->
+ 
+    <!-- <fieldset>
         <legend>Euros</legend>
         <p id="euro5display"></p>
         <p id="euro10display"></p>
@@ -63,7 +130,9 @@
         <p id="roebel1000display"></p>
         <p id="roebel2000display"></p>
         <p id="roebel5000display"></p>
-    </fieldset>
+    </fieldset> -->
+
+
     <p id="counter" class="hidden">amount in cart</p>
     <script src="./assets/js/cart.js"></script>
 </body>

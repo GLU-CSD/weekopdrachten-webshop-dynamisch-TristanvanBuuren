@@ -464,6 +464,20 @@
  }
 
  /* / BESTEL FORM */
+ /* CART */
+ #date {
+   margin-right: 10px;
+ }
+
+ .moneydisplay {
+   display: flex;
+   width: all;
+   height: 30px;
+ }
+
+
+
+ /* / CART */
 
  /* PRODUCT PAGE */
  #mainImg {
@@ -572,7 +586,7 @@
  }
 
  .dis-none {
-  display: none;
+   display: none;
  }
 
  /* .pos-mid {} */

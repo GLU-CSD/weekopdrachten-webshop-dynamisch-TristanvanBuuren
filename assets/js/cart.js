@@ -172,6 +172,10 @@ function DisplayStorage() { // if there is someting in storage it loads it and d
             document.getElementById("roebel5000display").innerHTML = "10x 5000 roebel briefjes  " + "€ 299,95" + "   (" + roebel5000 + ")" + "   € " + (((299.95) * roebel5000).toFixed(2));
         }
     }
+    if(localStorage !== null){
+        console.log(((14.95) * euro5) + ((19.95) * euro10) + ((29.95) * euro20) + ((69.95) * euro50) + ((149.95) * euro100) + ((299.95) * euro200) + ((899.95) * euro500))//.toFixed(2)
+        console.log().toFixed(2)
+    }
 }
 
 function ManageStorage(product) { // when you click a cart-button it does +1
