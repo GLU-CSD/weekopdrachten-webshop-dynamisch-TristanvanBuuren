@@ -23,11 +23,11 @@ foreach ($currencies[$cat] as $currency) {
                 </div>
                 <div>
                     <div class="product-page-buttons">
-                        <img class="addtocart" src='<?php echo $currency["photos"]["photo2"] ?>'
+                        <img class="addtocart c-p" src='<?php echo $currency["photos"]["photo2"] ?>'
                             onclick="ManageStorage('<?php echo $currency['msName'] ?>')">
-                        <div class="buynow">
+                        <a class="buynow" href="bestellen.html" onclick="ManageStorage('<?php echo $currency['msName'] ?>')">
                             <img src="assets/img/register.png" class="register">BUY NOW
-                        </div>
+                        </a>
                     </div>
                     <div class="product-prijs">
                         <?php echo $currency["price"] ?>

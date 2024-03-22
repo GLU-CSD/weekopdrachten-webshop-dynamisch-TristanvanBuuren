@@ -18,6 +18,7 @@ Email bon sturen
 
 
 mod 2 VVV
+header updaten en   <!-- START HEADER BOTTOMBAR--> tot   <!-- / HEADER BOTTOMBAR--> toevoegen en URL uitlezen en dan class="selected" toevoegen aan div id="NAVBAR"
 
-doe php $currency['msName'] naar cart.js linken aan productpage.php met img
-met msName in JS doe senden naar productpage.php met een img
+
+Home > Euro > Brief Geld + > product (toevoegen aan product pagina)
