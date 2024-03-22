@@ -29,7 +29,6 @@ let roebel1000 = 0
 let roebel2000 = 0
 let roebel5000 = 0
 
-document.getElementById("clear").onclick = function() {ClearStorage()};
 
 function DisplayStorage() { // if there is someting in storage it loads it and displays
     if(localStorage !== null){
@@ -464,6 +463,9 @@ function ManageStorage(product) { // when you click a cart-button it does +1
     counter.innerHTML = "(" + i + ")";
     localStorage.setItem("amount", i);
 }
+
+document.getElementById("clear").onclick = function() {ClearStorage()};
+
 
 function ClearStorage() { // Clears storage if there is any in there
     if(localStorage !== null){

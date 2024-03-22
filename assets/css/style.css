@@ -520,7 +520,9 @@
    padding: 2px;
  }
 
-
+ #border {
+   border-bottom: 2px black solid;
+ }
 
  /* / PRODUCT PAGE */
 
