@@ -1,5 +1,5 @@
 <?php
-include_once("view/header.php");
+include_once ("view/header.php");
 ?>
 <main>
   <!-- START HEADER BOTTOMBAR-->
@@ -87,25 +87,30 @@ include_once("view/header.php");
     <!-- START ARTICLES -->
     <div class="articles">
       <?php
-      include("view/products.php");
+      include ("view/products.php");
 
       foreach ($currencies["dollar"] as $currency) {
-        echo "<div class='product'>";
-        echo "<a href='productpage.php?id=" . $currency["id"] . "&cat=" . $currency["category"] . " '>" . "<img src=" . "'" . ($currency["photos"]["photo1"]) . "'" . "  class='geld-briefje'/>" . "</a>";
-        echo "<span class='product-text'>";
-        // echo "<a class='td-none' href='productpage.php?id=" . $currency["id"] . "&category=" . $currency["category"] . " '>" . $currency["title"] . "</a>";
-        echo "<a class='td-none' href='productpage.php?id=" . $currency["id"] . "&cat=" . $currency["category"] . " '>" . $currency["title"] . "</a>";
-        echo "</span>";
-        echo "<div class='cart-button' onclick='ManageStorage(" . '"' . $currency['msName'] . '"' . ")'>";
-        echo "<img class='cart-img' alt='cart' width='40' height='40' src=" . "'" . ($currency["photos"]["photo2"]) . "'" . "/>";
-        echo "</div>";
-        echo "<span class='beschrijving'>";
-        echo $currency["description"];
-        echo "</span>";
-        echo "<span class='prijs'>";
-        echo $currency["price"];
-        echo "</span>";
-        echo "</div>";
+        ?>
+        <div class='product'>
+          <a href='productpage.php?id=<?php echo $currency["id"] . "&cat=" . $currency["category"] ?>'>
+            <img src='<?php echo $currency["photos"]["photo1"] ?>' class='geld-briefje' />
+          </a>
+          <span class='product-text'>
+            <a class='td-none' href='productpage.php?id=<?php echo $currency["id"] . "&cat=" . $currency["category"] ?>'>
+              <?php echo $currency["title"] ?>
+            </a>
+          </span>
+          <div class='cart-button' onclick='ManageStorage("<?php echo $currency["msName"] ?>")'>
+            <img class='cart-img' alt='cart' width='40' height='40' src='<?php echo $currency["photos"]["photo2"] ?>' />
+          </div>
+          <span class='beschrijving'>
+            <?php echo $currency["description"] ?>
+          </span>
+          <span class='prijs'>
+            <?php echo $currency["price"] ?>
+          </span>
+        </div>
+        <?php
       }
       ?>
       <!-- <div class="product" id="1dollar">
@@ -176,5 +181,5 @@ include_once("view/header.php");
   </div>
   <!-- / CONTENT -->
   <?php
-  include_once("view/footer.php")
+  include_once ("view/footer.php")
     ?>
