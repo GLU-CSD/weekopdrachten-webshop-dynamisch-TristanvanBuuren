@@ -2,35 +2,6 @@
 include_once ("view/header.php");
 ?>
 <main>
-  <!-- / HEADER TOPBAR-->
-  <!-- START HEADER BOTTOMBAR-->
-  <div class="header-bottom-bar">
-    <div id="logo"><img src="assets/img/logo.png" alt="logo" width="20" height="20"></div>
-    <div class="navbar">
-      <a href="index.php" class="item">Home</a>
-      <a href="index.php" class="item">Euro</a>
-      <a href="dollar.php" class="item">Dollar</a>
-      <a href="yen.php" class="item selected">Yen</a>
-      <a href="pound.php" class="item">Pond</a>
-      <a href="roebel.php" class="item">Roebel</a>
-    </div>
-    <div class="shop-buttons">
-      <div id="menu">
-        <a class="button">search</a>
-        <a class="button">Vergelijk</a>
-        <a class="button" href="winkelwagen.html">Winkelwagen</a>
-      </div>
-      <p id="counter">(0)</p>
-      <p id="clear">X</p>
-    </div>
-  </div>
-  <!-- / HEADER BOTTOMBAR-->
-  </div>
-  <!-- START CONTENT -->
-  <div class="content">
-    <!-- START SIDEBAR -->
-    <div class="side-bar">
-      <div id="direction">Home > Yen > Brief Geld</div>
       <div class="side-box" id="categorie">
         <span class="fw-bolder fs-20 bb-2-s-b">Geld</span>
         <ul class="arrow-points">

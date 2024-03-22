@@ -1,3 +1,8 @@
+<?php
+$url = explode("/", $_SERVER['SCRIPT_NAME']);
+$currentpage = str_replace(".php", "", array_pop($url));
+?>
+
 <!DOCTYPE html>
 <html class="no-js" lang="">
 
@@ -41,3 +46,57 @@
         </div>
         <!-- / HEADER TOPBAR-->
         <!-- START HEADER BOTTOMBAR-->
+        <div class="header-bottom-bar">
+            <div id="logo"><img src="assets/img/logo.png" alt="logo" width="20" height="20"></div>
+            <div class="navbar">
+                <a href="index.php" class="item">Home</a>
+                <a href="index.php" class="item <?php if ($currentpage == "index") {
+                    echo "selected";
+                } ?>">Euro</a>
+                <a href="dollar.php" class="item <?php if ($currentpage == "dollar") {
+                    echo "selected";
+                } ?>">Dollar</a>
+                <a href="yen.php" class="item <?php if ($currentpage == "yen") {
+                    echo "selected";
+                } ?>">Yen</a>
+                <a href="pound.php" class="item <?php if ($currentpage == "pound") {
+                    echo "selected";
+                } ?>">Pond</a>
+                <a href="roebel.php" class="item <?php if ($currentpage == "roebel") {
+                    echo "selected";
+                } ?>">Roebel</a>
+            </div>
+            <div class="shop-buttons">
+                <div id="menu">
+                    <a class="button">search</a>
+                    <a class="button">Vergelijk</a>
+                    <a class="button" href="winkelwagen.html">Winkelwagen</a>
+                </div>
+                <p id="counter">(0)</p>
+                <p id="clear">X</p>
+            </div>
+        </div>
+        <!-- / HEADER BOTTOMBAR -->
+    </div>
+    <!-- START CONTENT -->
+    <div class="content">
+        <!-- START SIDEBAR -->
+        <div class="side-bar">
+            <?php
+            if ($currentpage == "index") {
+                echo "<div id='direction'>Home > Euro > Brief Geld</div>";
+            }
+            if ($currentpage == "dollar") {
+                echo "<div id='direction'>Home > Dollar > Brief Geld</div>";
+            }
+            if ($currentpage == "yen") {
+                echo "<div id='direction'>Home > Yen > Brief Geld</div>";
+            }
+            if ($currentpage == "pound") {
+                echo "<div id='direction'>Home > Pond > Brief Geld</div>";
+            }
+            if ($currentpage == "roebel") {
+                echo "<div id='direction'>Home > Roebel > Brief Geld</div>";
+            }
+            ?>
+            <!-- <div id="direction">Home > Dollar > Brief Geld</div> -->
