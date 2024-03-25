@@ -29,11 +29,16 @@ foreach ($currencies[$cat] as $currency) {
                             <img src="assets/img/register.png" class="register">BUY NOW
                         </a>
                     </div>
+                    <div class="product-title">
+                        <?php echo $currency["title"] ?>
+                    </div>
                     <div class="product-prijs">
                         <?php echo $currency["price"] ?>
                     </div>
+
                 </div>
             </div>
+
             <div>
                 <?php echo $currency["description"] ?>
             </div>
