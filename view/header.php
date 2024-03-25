@@ -83,6 +83,8 @@ $currentpage = str_replace(".php", "", array_pop($url));
         <!-- START SIDEBAR -->
         <div class="side-bar">
             <?php
+            include ("view/products.php");
+
             if ($currentpage == "index") {
                 echo "<div id='direction'>Home > Euro > Brief Geld</div>";
             }
@@ -97,6 +99,30 @@ $currentpage = str_replace(".php", "", array_pop($url));
             }
             if ($currentpage == "roebel") {
                 echo "<div id='direction'>Home > Roebel > Brief Geld</div>";
+            }
+
+
+
+            if ($currentpage == "productpage") {
+                $cat = $_GET["cat"];
+                if ($cat == "euro") {
+                    $cat1 = "Euro";
+                }
+                if ($cat == "dollar") {
+                    $cat1 = "Dollar";
+                }
+                if ($cat == "yen") {
+                    $cat1 = "Yen";
+                }
+                if ($cat == "pond") {
+                    $cat1 = "Pond";
+                }
+                if ($cat == "roebel") {
+                    $cat1 = "Roebel";
+                }
+                $id = $_GET["id"];
+
+                echo "<div id='direction'>Home > " . $cat1 . " > Brief Geld > " . ($currencies[$cat][$id]["title"]) . "</div>";
             }
             ?>
             <!-- <div id="direction">Home > Dollar > Brief Geld</div> -->

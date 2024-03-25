@@ -8,9 +8,6 @@ foreach ($currencies[$cat] as $currency) {
     if ($currency["id"] == $id) {
         ?>
         <div>
-            <div style="background-color:navy; height: 50px; color:white;">HOME | CART | CHECKOUT <p id="counter"
-                    class="dis-none">(0)</p>
-            </div>
             <div style="display: flex;">
                 <img id='mainImg' src=' <?php echo $currency["photos"]["photo1"]; ?>' class='geld-briefje' />
                 <div style="display: inline-flex; flex-direction: column;">
