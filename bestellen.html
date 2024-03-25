@@ -30,22 +30,22 @@
       <legend>Personalia</legend>
 
       <label>Uw aanhef:</label>
-      <input type="radio" id="dhr" name="aanhef" value="dhr">
+      <input type="radio" id="dhr" name="aanhef" value="dhr" tabindex="4">
       <label for="dhr">Dhr.</label>
-      <input type="radio" id="mev" name="aanhef" value="mev">
+      <input type="radio" id="mev" name="aanhef" value="mev" tabindex="5">
       <label for="mev">Mev.</label><br>
 
       <label for="voornaam">Uw voornaam:*</label>
-      <input type="text" name="voornaam" id="voornaam" placeholder="John" required>
+      <input type="text" name="voornaam" id="voornaam" placeholder="John" required tabindex="5">
 
       <label for="tussenvoegsel">tussenvoegsel:</label>
-      <input type="text" name="tussenvoegsel" id="tussenvoegsel" class="w-50">
+      <input type="text" name="tussenvoegsel" id="tussenvoegsel" class="w-50" tabindex="6">
 
       <label for="achternaam">achternaam:*</label>
-      <input type="text" name="achternaam" id="achternaam" placeholder="Doe" required><br>
+      <input type="text" name="achternaam" id="achternaam" placeholder="Doe" required tabindex="7"><br>
 
       <label for="geboortedatum">geboortedatum:*</label>
-      <input type="date" name="geboortedatum" id="geboortedatum" required>
+      <input type="date" name="geboortedatum" id="geboortedatum" required tabindex="8">
       <input type="button" id="calc" value="calculate" onclick="clicked(this);">
 
       <div id="leeftijd">Uw leeftijd:</div>
@@ -55,16 +55,16 @@
       <legend>Adress</legend>
 
       <label for="straatnaam">Uw straat:*</label>
-      <input type="text" name="straatnaam" id="straatnaam" placeholder="straatnaam" required>
+      <input type="text" name="straatnaam" id="straatnaam" placeholder="straatnaam" required tabindex="9">
 
       <label for="huisnummer">Uw huisnummer:*</label>
-      <input type="number" name="huisnummer" id="huisnummer" placeholder="78" class="w-30" required><br>
+      <input type="number" name="huisnummer" id="huisnummer" placeholder="78" class="w-30" required tabindex="10"><br>
 
       <label for="postcode">Uw postcode:*</label>
-      <input type="text" name="postcode" id="postcode" placeholder="3521GH" class="w-80" required>
+      <input type="text" name="postcode" id="postcode" placeholder="3521GH" class="w-80" required tabindex="11">
 
       <label for="land">Uw land:*</label>
-      <select name="land" id="land" class="w-120" required>
+      <select name="land" id="land" class="w-120" required tabindex="12">
         <option value="" label="none"></option>
         <option value="Nederland">Nederland</option>
         <option value="Engeland">Engeland</option>
@@ -78,16 +78,16 @@
       <legend>Contactinformatie</legend>
 
       <label for="emailadres">Uw e-mailadres:*</label>
-      <input type="email" name="emailadres" id="emailadres" placeholder="johndoe@example.com" required>
+      <input type="email" name="emailadres" id="emailadres" placeholder="johndoe@example.com" required tabindex="13">
       <!-- confirm email -->
       <!-- Email sent to you to confirm your order -->
 
       <label for="telefoonnummer">Uw nummer:*</label>
-      <input type="tel" name="telefoonnummer" id="telefoonnummer" placeholder="123-45-678" required>
+      <input type="tel" name="telefoonnummer" id="telefoonnummer" placeholder="123-45-678" required tabindex="14">
       <!-- https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_tel -->
     </fieldset>
     <div id="avvBox">
-      <input type="checkbox" id="avv" name="avv" required>
+      <input type="checkbox" id="avv" name="avv" required tabindex="15">
       <label for="avv" id="avvText">Ik accepteer de agemene voorwaarden. <a href="AVV.html">Lees hier.</a></label>
       <input type="submit" id="submit" name="submit" value="submit" onclick="SaveInfo();">
     </div>
