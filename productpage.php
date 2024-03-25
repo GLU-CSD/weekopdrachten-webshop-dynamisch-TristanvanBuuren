@@ -39,10 +39,11 @@ foreach ($currencies[$cat] as $currency) {
             </div>
             <div>Anders</div>
         </div>
+        </div>
+        </div>
         <?php
     }
 }
-echo "<div id='border'></div>";
 include_once ("view/footer.php");
 ?>
 <!-- <div>

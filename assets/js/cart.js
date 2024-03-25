@@ -172,9 +172,17 @@ function DisplayStorage() { // if there is someting in storage it loads it and d
             document.getElementById("roebel5000display").innerHTML = "10x 5000 roebel briefjes  " + "€ 299,95" + "   (" + roebel5000 + ")" + "   € " + (((299.95) * roebel5000).toFixed(2));
         }
     }
+    // if(localStorage !== null){
+    //     console.log(((14.95) * euro5) + ((19.95) * euro10) + ((29.95) * euro20) + ((69.95) * euro50) + ((149.95) * euro100) + ((299.95) * euro200) + ((899.95) * euro500))//.toFixed(2)
+    //     console.log().toFixed(2)
+    // }
+}
+
+function CalculateTotal() {
     if(localStorage !== null){
-        console.log(((14.95) * euro5) + ((19.95) * euro10) + ((29.95) * euro20) + ((69.95) * euro50) + ((149.95) * euro100) + ((299.95) * euro200) + ((899.95) * euro500))//.toFixed(2)
-        console.log().toFixed(2)
+        let totalPrice = (((14.95) * euro5) + ((19.95) * euro10) + ((29.95) * euro20) + ((69.95) * euro50) + ((149.95) * euro100) + ((299.95) * euro200) + ((899.95) * euro500) + ((7.95) * dollar1) + ((9.95) * dollar2) + ((39.95) * dollar5) + ((69.95) * dollar10) + ((149.95) * dollar20) + ((349.95) * dollar50) + ((849.95) * dollar100) + ((34.95) * yen1000) + ((89.95) * yen2000) + ((179.95) * yen5000) + ((399.95) * yen10000) + ((34.95) * pound5) + ((59.95) * pound10) + ((149.95) * pound20) + ((449.95) * pound50) + ((7.95) * roebel100) + ((15.95) * roebel200) + ((69.95) * roebel1000) + ((159.95) * roebel2000) + ((299.95) * roebel5000)).toFixed(2)
+        // console.log(((14.95) * euro5) + ((19.95) * euro10) + ((29.95) * euro20) + ((69.95) * euro50) + ((149.95) * euro100) + ((299.95) * euro200) + ((899.95) * euro500) + ((7.95) * dollar1) + ((9.95) * dollar2) + ((39.95) * dollar5) + ((69.95) * dollar10) + ((149.95) * dollar20) + ((349.95) * dollar50) + ((849.95) * dollar100) + ((34.95) * yen1000) + ((89.95) * yen2000) + ((179.95) * yen5000) + ((399.95) * yen10000) + ((34.95) * pound5) + ((59.95) * pound10) + ((149.95) * pound20) + ((449.95) * pound50) + ((7.95) * roebel100) + ((15.95) * roebel200) + ((69.95) * roebel1000) + ((159.95) * roebel2000) + ((299.95) * roebel5000)).toFixed(2)
+        console.log(totalPrice)//.toFixed(2)
     }
 }
 
