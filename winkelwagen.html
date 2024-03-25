@@ -18,11 +18,11 @@
           }
         </style>
       </head>
-<body onLoad="DisplayStorage()">
+<body onLoad="DisplayStorage(); GetDate()">
     <div style="display: flex;">
         <a href="index.php" class="fake-button">Back</a>
         <div onclick="ClearStorage(); window.location.reload()" class="fake-button">Clear All</div>
-        <div id="date">test</div>
+        <p id="date"></p>
     </div>
     <div>
         <p id="euro5display"></p>

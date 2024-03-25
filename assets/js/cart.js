@@ -29,6 +29,8 @@ let roebel1000 = 0
 let roebel2000 = 0
 let roebel5000 = 0
 
+const d = new Date();
+
 
 function DisplayStorage() { // if there is someting in storage it loads it and displays
     if(localStorage !== null){
@@ -573,4 +575,10 @@ function CheckStorage(){
     console.log("1000 roebel = " + roebel1000);
     console.log("2000 roebel = " + roebel2000);
     console.log("5000 roebel = " + roebel5000);
+}
+
+function GetDate() {
+    document.getElementById("date").innerHTML = d;
+    // document.getElementById("date").innerHTML = d.getFullYear() + "   " + (d.getMonth() + 1) + "   "  + d.getDate();
+    // document.getElementById("date").innerHTML = d.getFullYear() + "   " + (d.getMonth() + 1) + "   " ;
 }
