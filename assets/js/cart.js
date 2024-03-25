@@ -30,6 +30,8 @@ let roebel2000 = 0
 let roebel5000 = 0
 
 const d = new Date();
+const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+const days = ["Sun", "Mon", "Tue", "Wen", "Thu", "Fri", "Sat"];
 
 
 function DisplayStorage() { // if there is someting in storage it loads it and displays
@@ -593,7 +595,14 @@ function CheckStorage(){
 }
 
 function GetDate() {
-    document.getElementById("date").innerHTML = d;
+    let year = d.getFullYear();
+    let month = months[d.getMonth()];
+    let weekday = days[d.getDay()];
+    let day = d.getDate();
+
+    // document.getElementById("demo").innerHTML = month;
+    document.getElementById("date").innerHTML = weekday + " " + month + " " + day + " " + year;
+    
     // document.getElementById("date").innerHTML = d.getFullYear() + "   " + (d.getMonth() + 1) + "   "  + d.getDate();
     // document.getElementById("date").innerHTML = d.getFullYear() + "   " + (d.getMonth() + 1) + "   " ;
 }
