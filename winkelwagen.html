@@ -18,7 +18,7 @@
           }
         </style>
       </head>
-<body onLoad="DisplayStorage(); GetDate()">
+<body onLoad="DisplayStorage(); GetDate(); CalculateTotal()">
     <div style="display: flex;">
         <a href="index.php" class="fake-button">Back</a>
         <div onclick="ClearStorage(); window.location.reload()" class="fake-button">Clear All</div>
@@ -52,7 +52,12 @@
         <p id="roebel1000display"></p>
         <p id="roebel2000display"></p>
         <p id="roebel5000display"></p>
-    </div>
+    </div><br><br>
+    <p id="btw">BTW bedrag 21%</p>
+    <p id="excbtw"></p>
+    <!-- <p id="incbtw"></p> --> 
+    <p id="verbtw"></p>
+    <p id="totprice"></p>
     <div>
     <br>
     <!-- <div style="width: max; height: 100px;">

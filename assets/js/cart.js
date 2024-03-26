@@ -192,6 +192,12 @@ function CalculateTotal() {
 
     console.log("Exc BTW:" + totalPrice);
     console.log("Inc BTW:" + (totalPrice / 100 * 121).toFixed(2));
+
+    document.getElementById("excbtw").innerHTML = ("Exc BTW: €" + totalPrice);
+    // document.getElementById("incbtw").innerHTML = ("Inc BTW:" + (totalPrice / 100 * 121).toFixed(2));
+    document.getElementById("verbtw").innerHTML = ("BTW:   €" + ((totalPrice / 100 * 121).toFixed(2) - totalPrice).toFixed(2));
+
+    document.getElementById("totprice").innerHTML = ("Totaal prijs: €" + (totalPrice / 100 * 121).toFixed(2))
     // switch (type) {
     //     case 'A':
     //         console.log(totalPrice);
