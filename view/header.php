@@ -39,7 +39,7 @@ $currentpage = str_replace(".php", "", array_pop($url));
             <div class="profiel">
                 <a href="index.html" class="setting">Mijn account</a>
                 <a class="spacer">|</a>
-                <a href="bestellen.html" class="setting">Afrekenen</a>
+                <a href="bestellen.php" class="setting">Afrekenen</a>
                 <a class="spacer">|</a>
                 <a href="index.html" class="setting">Inloggen</a>
             </div>
