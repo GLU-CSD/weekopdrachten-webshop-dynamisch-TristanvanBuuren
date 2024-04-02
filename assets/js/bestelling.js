@@ -17,6 +17,41 @@ let avv = false;
 function ShowInfo() {
     if(localStorage !== null){
         if (localStorage.getItem("voornaam") !== null) {
+            document.getElementById("voornaam").value = localStorage.getItem("voornaam");
+        }
+        if (localStorage.getItem("tussenvoegsel") !== null) {
+            document.getElementById("tussenvoegsel").value = localStorage.getItem("tussenvoegsel");
+        }
+        if (localStorage.getItem("achternaam") !== null) {
+            document.getElementById("achternaam").value = localStorage.getItem("achternaam");
+        }
+        if (localStorage.getItem("geboortedatum") !== null) {
+            document.getElementById("geboortedatum").value = localStorage.getItem("geboortedatum");
+        }
+        if (localStorage.getItem("straatnaam") !== null) {
+            document.getElementById("straatnaam").value = localStorage.getItem("straatnaam");
+        }
+        if (localStorage.getItem("huisnummer") !== null) {
+            document.getElementById("huisnummer").value = localStorage.getItem("huisnummer");
+        }
+        if (localStorage.getItem("postcode") !== null) {
+            document.getElementById("postcode").value = localStorage.getItem("postcode");
+        }
+        if (localStorage.getItem("land") !== null) {
+            document.getElementById("land").value = localStorage.getItem("land");
+        }
+        if (localStorage.getItem("emailadres") !== null) {
+            document.getElementById("emailadres").value = localStorage.getItem("emailadres");
+        }
+        if (localStorage.getItem("telefoonnummer") !== null) {
+            document.getElementById("telefoonnummer").value = localStorage.getItem("telefoonnummer");
+        }
+    }
+}
+
+function ShowInfoResult() {
+    if(localStorage !== null){
+        if (localStorage.getItem("voornaam") !== null) {
             document.getElementById("voornaam").innerHTML = localStorage.getItem("voornaam");
         }
         if (localStorage.getItem("tussenvoegsel") !== null) {

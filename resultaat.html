@@ -20,10 +20,48 @@
   </style>
 </head>
 
-<body class="w-max" onload="ShowInfo(); GetDate(); DisplayStorage(); CalculateTotal();">
-  
+<body class="w-max" onload="ShowInfoResult(); GetDate(); DisplayStorage(); CalculateTotal();">
   <p id="date"></p>
     <div class="dis-inline-flex">Uw naam is:&nbsp;<p id="voornaam"></p>&nbsp;<p id="tussenvoegsel"></p>&nbsp;<p id="achternaam"></p></div>
+    <div>Bedankt voor uw bestelling bij ...</div>
+    <br>
+    <div>
+      <p id="euro5display"></p>
+      <p id="euro10display"></p>
+      <p id="euro20display"></p>
+      <p id="euro50display"></p>
+      <p id="euro100display"></p>
+      <p id="euro200display"></p>
+      <p id="euro500display"></p>
+      <p id="dollar1display"></p>
+      <p id="dollar2display"></p>
+      <p id="dollar5display"></p>
+      <p id="dollar10display"></p>
+      <p id="dollar20display"></p>
+      <p id="dollar50display"></p>
+      <p id="dollar100display"></p>
+      <p id="yen1000display"></p>
+      <p id="yen2000display"></p>
+      <p id="yen5000display"></p>
+      <p id="yen10000display"></p>
+      <p id="pound5display"></p>
+      <p id="pound10display"></p>
+      <p id="pound20display"></p>
+      <p id="pound50display"></p>
+      <p id="roebel100display"></p>
+      <p id="roebel200display"></p>
+      <p id="roebel1000display"></p>
+      <p id="roebel2000display"></p>
+      <p id="roebel5000display"></p>
+  </div>
+  <br>
+  <div>Wij zullen uw product(en) leveren op het volgende adres:</div>
+  <div class="dis-inline-flex"><p id="straatnaam"></p>&nbsp;<p id="huisnummer"></p></div><br>
+  <div class="dis-inline-flex"><p id="postcode"></p>&nbsp;<p id="land"></p></div>
+  <br><br>
+  <div class="dis-inline-flex fake-button c-mf">&nbsp;Bon naar: &nbsp;<p class="col-lsb" id="emailadres"></p>&nbsp;versturen&nbsp;<!--&nbsp;&nbsp;<div id="circle"></div>--></div>
+  <p class="dis-none" id="geboortedatum"></p>
+  <p class="dis-none" id="telefoonnummer"></p>
     <script src="./assets/js/bestelling.js"></script>
     <script src="./assets/js/cart.js"></script>
 </body>

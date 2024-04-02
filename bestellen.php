@@ -23,9 +23,9 @@
 <body class="w-max" onload="ShowInfo();">
   <form method="POST" action="resultaat.html">
     <br>
-    <a class="fake-button" href="winkelwagen.html" onclick="SaveInfo();" tabindex="1">Check Winkelwagen</a>
-    <a class="fake-button" href="index.php" onclick="SaveInfo();" tabindex="2">Terug naar webstore</a>
-    <div class="fake-button" onclick="ClearInfo()" tabindex="3">Clear Storage</div>
+    <a class="fake-button c-mf" href="winkelwagen.html" onclick="SaveInfo();" tabindex="1">Check Winkelwagen</a>
+    <a class="fake-button c-mf" href="index.php" onclick="SaveInfo();" tabindex="2">Terug naar webstore</a>
+    <div class="fake-button c-mf" onclick="ClearInfo()" tabindex="3">Clear Storage</div>
     <fieldset id="personalia" class="pos-mid">
       <legend>Personalia</legend>
 
@@ -61,7 +61,7 @@
       <input type="number" name="huisnummer" id="huisnummer" placeholder="78" class="w-30" required tabindex="10"><br>
 
       <label for="postcode">Uw postcode:*</label>
-      <input type="text" name="postcode" id="postcode" placeholder="3521GH" class="w-80" required tabindex="11">
+      <input type="text" name="postcode" id="postcode" placeholder="3521GH" class="w-80" tabindex="11">
 
       <label for="land">Uw land:*</label>
       <select name="land" id="land" class="w-120" required tabindex="12">
@@ -93,6 +93,7 @@
     </div>
     <div class="pos-mid" id="star"> * Vereiste veld</div>
     <br>
+
     <!-- Payment: Select box as https://checkout.travelex.co.uk/gb/Payment -->
 
 
