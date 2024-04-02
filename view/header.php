@@ -50,19 +50,19 @@ $currentpage = str_replace(".php", "", array_pop($url));
             <div id="logo"><img src="assets/img/logo.png" alt="logo" width="20" height="20"></div>
             <div class="navbar">
                 <a href="index.php" class="item">Home</a>
-                <a href="index.php" class="item <?php if ($currentpage == "index") {
+                <a href="index.php" class="item <?php if ($currentpage == "index" || $cat == "euro") {
                     echo "selected";
                 } ?>">Euro</a>
-                <a href="dollar.php" class="item <?php if ($currentpage == "dollar") {
+                <a href="dollar.php" class="item <?php if ($currentpage == "dollar" || $cat == "dollar") {
                     echo "selected";
                 } ?>">Dollar</a>
-                <a href="yen.php" class="item <?php if ($currentpage == "yen") {
+                <a href="yen.php" class="item <?php if ($currentpage == "yen" || $cat == "pond") {
                     echo "selected";
                 } ?>">Yen</a>
-                <a href="pound.php" class="item <?php if ($currentpage == "pound") {
+                <a href="pound.php" class="item <?php if ($currentpage == "pound" || $cat == "euro") {
                     echo "selected";
                 } ?>">Pond</a>
-                <a href="roebel.php" class="item <?php if ($currentpage == "roebel") {
+                <a href="roebel.php" class="item <?php if ($currentpage == "roebel" || $cat == "roebel") {
                     echo "selected";
                 } ?>">Roebel</a>
             </div>

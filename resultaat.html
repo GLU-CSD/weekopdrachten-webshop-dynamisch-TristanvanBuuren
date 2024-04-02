@@ -20,9 +20,12 @@
   </style>
 </head>
 
-<body class="w-max" onload="ShowInfo();">
-    <div>Uw naam is: <p id="voornaam"></p><p id="tussenvoegsel"></p><p id="achternaam"></p></div>
+<body class="w-max" onload="ShowInfo(); GetDate(); DisplayStorage(); CalculateTotal();">
+  
+  <p id="date"></p>
+    <div class="dis-inline-flex">Uw naam is:&nbsp;<p id="voornaam"></p>&nbsp;<p id="tussenvoegsel"></p>&nbsp;<p id="achternaam"></p></div>
     <script src="./assets/js/bestelling.js"></script>
+    <script src="./assets/js/cart.js"></script>
 </body>
 
 </html>

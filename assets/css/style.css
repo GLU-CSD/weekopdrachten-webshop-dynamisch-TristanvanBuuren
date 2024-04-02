@@ -606,6 +606,10 @@
    display: none;
  }
 
+ .dis-inline-flex {
+  display: inline-flex;
+ }
+
  /* .pos-mid {} */
 
  /* Hieronder staan alle stijles voor de fonts  */

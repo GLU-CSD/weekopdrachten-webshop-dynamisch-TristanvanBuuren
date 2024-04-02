@@ -23,7 +23,7 @@
 <body class="w-max" onload="ShowInfo();">
   <form method="POST" action="resultaat.html">
     <br>
-    <a class="fake-button" href="winkelwagen.html" onclick="SaveInfo();" tabindex="1">Check Winkelwagen</a>  
+    <a class="fake-button" href="winkelwagen.html" onclick="SaveInfo();" tabindex="1">Check Winkelwagen</a>
     <a class="fake-button" href="index.php" onclick="SaveInfo();" tabindex="2">Terug naar webstore</a>
     <div class="fake-button" onclick="ClearInfo()" tabindex="3">Clear Storage</div>
     <fieldset id="personalia" class="pos-mid">
