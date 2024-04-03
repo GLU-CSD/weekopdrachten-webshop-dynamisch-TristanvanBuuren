@@ -151,6 +151,35 @@ include_once ("view/header.php");
     </div>
     <!-- / ARTICLES -->
   </div>
+  <div class="dis-none">
+    <p id="euro5display"></p>
+    <p id="euro10display"></p>
+    <p id="euro20display"></p>
+    <p id="euro50display"></p>
+    <p id="euro100display"></p>
+    <p id="euro200display"></p>
+    <p id="euro500display"></p>
+    <p id="dollar1display"></p>
+    <p id="dollar2display"></p>
+    <p id="dollar5display"></p>
+    <p id="dollar10display"></p>
+    <p id="dollar20display"></p>
+    <p id="dollar50display"></p>
+    <p id="dollar100display"></p>
+    <p id="yen1000display"></p>
+    <p id="yen2000display"></p>
+    <p id="yen5000display"></p>
+    <p id="yen10000display"></p>
+    <p id="pound5display"></p>
+    <p id="pound10display"></p>
+    <p id="pound20display"></p>
+    <p id="pound50display"></p>
+    <p id="roebel100display"></p>
+    <p id="roebel200display"></p>
+    <p id="roebel1000display"></p>
+    <p id="roebel2000display"></p>
+    <p id="roebel5000display"></p>
+  </div>
   <!-- / CONTENT -->
   <?php
   include_once ("view/footer.php")

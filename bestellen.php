@@ -94,6 +94,7 @@
     </div>
     <div class="pos-mid" id="star"> * Vereiste veld</div>
     <br>
+    <p class="dis-none" id="clear"></p>
 
     <!-- Payment: Select box as https://checkout.travelex.co.uk/gb/Payment -->
 
