@@ -32,7 +32,13 @@ foreach ($currencies[$cat] as $currency) {
                     <div class="product-prijs">
                         <?php echo $currency["price"] ?>
                     </div>
-
+                    <div class="product-rating">
+                        <div class="product-rating-text">
+                            beoordeling:
+                            <?php echo $currency["rating"] ?>
+                        </div>
+                        <img src="assets/img/star.png" class="product-rating-star">
+                    </div>
                 </div>
             </div>
 
