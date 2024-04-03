@@ -82,13 +82,10 @@ include_once ("view/header.php");
             <?php echo $currency["price"] ?>
           </span>
         </div>
-
         <?php
         // echo "<a class='td-none' href='productpage.php?id=" . $currency["id"] . "&category=" . $currency["category"] . " '>" . $currency["title"] . "</a>";
-      
       }
       ?>
-
       <!-- 
         <div class="product" id="5euro">
         <img src="assets/img/5_euro.jpg" alt="5-euro" width="200" height="100" class="geld-briefje">

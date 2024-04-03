@@ -612,3 +612,82 @@ function GetDate() {
     // document.getElementById("date").innerHTML = d.getFullYear() + "   " + (d.getMonth() + 1) + "   "  + d.getDate();
     // document.getElementById("date").innerHTML = d.getFullYear() + "   " + (d.getMonth() + 1) + "   " ;
 }
+
+function GetUuid() {
+    if (localStorage.getItem("uuid") == null) {
+        const uuids = [
+        'e8435d12-f6bb-443f-89c9-ad864f53699c',
+        '622ee464-697f-448e-b361-adcb748315f3',
+        'f605ef01-84ed-42bc-a2a7-8a00d32f12b6',
+        'ab67caf2-7af9-446c-a31c-5f3b87c54d71',
+        '9b1e1797-e3b5-4f00-9b9f-b5d1300c6860',
+        '85ef48bc-86fe-458a-a6ab-f7f21a7ed8d7',
+        '3181f089-e02d-48cc-8a04-d8eadb1e6870',
+        '34153fb1-9336-47a1-9ea7-bd48ae85d366',
+        '7520e1bc-ef62-4b7d-bb0e-f81f08ef75ed',
+        'd070482b-16dc-444d-a9d7-8d0058998050',
+        '61d87813-3897-4c38-94d6-a76e0bc684b8',
+        '60caf3cd-2f03-4d05-bf0c-8872d8da23d0',
+        'd6c1b05a-e28d-4983-bb27-79ecc5e8e628',
+        '7a8af31c-d510-4837-a1c4-ef12df6eb778',
+        'f3dbf3e5-8aaf-47db-9a0b-9c23a6d4ecd7',
+        '26204400-2748-4e80-a2d9-11f1a7ff7ffa',
+        '35a5e782-0078-4cce-bd5e-7bd8dc7e54e7',
+        '1ad2b35c-44ee-4882-ae53-bbce18c73186',
+        'c3ee5b87-d88a-4e39-8a04-d92585193f48',
+        '8be72b27-5434-4654-b3ce-2b43289173f7',
+        '808f4af3-ddf4-4dbd-8e08-5303ec90532b',
+        '3261364e-111e-46fa-aabf-2a05c5c39083',
+        '6ffdf638-c8de-4c84-9134-1ad857263d7c',
+        'f9a4fbd3-2913-4d60-ac38-d580cf91c16d',
+        '54441d99-2802-48f4-a13a-b3bb6a7efd98',
+        'ca3ef5c1-8c62-4bcc-b235-c720abe54797',
+        'ab9cfc92-bb56-4576-a5a8-a696aba3274e',
+        '703477df-102a-460c-88cf-19e121c410d7',
+        '569655ea-75c6-4660-aa61-45c0fd2a1c57',
+        '3d1df78c-0f61-441c-89bc-14c8c7275b37',
+        '52701480-d969-4600-b98e-f761e94cdc62',
+        'ed3b99a0-41cd-462a-93cf-319324058322',
+        'a5a0b38e-7653-4855-9301-ef17685821ef',
+        '0d89302e-ac36-4c88-a47a-71185f2a88aa',
+        '506552fa-b8e0-4a81-917b-f29117efcb1f',
+        '28f7ec1c-913f-4074-90af-750d1a00a350',
+        'a64d2f27-9827-4420-8697-f4ea15592ee9',
+        '1ef4c62f-21d7-43ad-93d9-fdf0653c4639',
+        'dbef8aa7-127e-4d80-b549-785b493fd005',
+        '7c9b6581-ce6b-4386-84ab-e7bdf61c1c3b',
+        '999c48ba-8a69-4b4a-b5b3-bf54150a15ce',
+        'f8b7f263-c4bf-4759-be0d-f1cfaff1f86c',
+        '241845fa-a73f-4842-8259-fe94b094c43c',
+        '45b1c67b-f665-42d7-bc16-762f88901692',
+        '63ba783c-93d2-44ec-ba5f-21f438ed04f8',
+        'dbceef5d-3730-48bb-9b83-931d5435c9de',
+        'b627be92-1af9-45f9-a3ec-24f248dc7995',
+        '7992cdb0-bde1-461d-aff3-1aa1987c6e0d',
+        '8f32ad8f-a47c-491b-9efb-55b869b58f62',
+        '2187f35d-297e-446e-8f56-5f17f9fe3c33',
+        'de9d4253-e7ef-455b-9a01-3654e4d3b56c',
+        'd936978f-2050-4a3b-b061-048710cc4510',
+        '7dc8a987-a7a5-4f8c-8587-efc6f42a853d',
+        'a9331346-a62b-4729-8b43-f77f37192afd',
+        '8935b398-9e53-43aa-9c3d-92fab498e0ef',
+        '0c855c71-9c52-479f-a92d-d9ed2663d582',
+        '07113473-fdb2-466d-84cc-c1bf78fc919e',
+        '79807d62-35b7-4e74-a2f3-9d27298eacbe',
+        '79f29ca8-1919-4c01-a749-73cdee6d65ce',
+        '22267de4-d8d5-406c-9dcc-628d752eb19c'
+      ];
+      const randomIndex = Math.floor(Math.random() * uuids.length);
+
+      // Access the UUID using the random index
+      const uuid = uuids[randomIndex];
+      localStorage.setItem("uuid", uuid);
+  
+      document.getElementById("bestelling-id").innerHTML = "UUID:  " + localStorage.getItem("uuid")
+      console.log("Generated  " + uuid);
+    }
+    else {
+        document.getElementById("bestelling-id").innerHTML = "UUID:  " + localStorage.getItem("uuid")
+        console.log("Already Generated  " + localStorage.getItem("uuid"));
+    }
+}

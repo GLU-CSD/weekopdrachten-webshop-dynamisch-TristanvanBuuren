@@ -20,12 +20,13 @@
   </style>
 </head>
 
-<body class="w-max" onload="ShowInfo();">
+<body class="w-max" onload="ShowInfo(); GetUuid();">
   <form method="POST" action="resultaat.html">
     <br>
     <a class="fake-button c-mf" href="winkelwagen.html" onclick="SaveInfo();" tabindex="1">Check Winkelwagen</a>
     <a class="fake-button c-mf" href="index.php" onclick="SaveInfo();" tabindex="2">Terug naar webstore</a>
     <div class="fake-button c-mf" onclick="ClearInfo()" tabindex="3">Clear Storage</div>
+    <p id="bestelling-id"></p>
     <fieldset id="personalia" class="pos-mid">
       <legend>Personalia</legend>
 
@@ -102,6 +103,7 @@
   </form>
   <script src="./assets/js/age.js"></script>
   <script src="./assets/js/bestelling.js"></script>
+  <script src="./assets/js/cart.js"></script>
 </body>
 
 </html>
