@@ -37,7 +37,7 @@ foreach ($currencies[$cat] as $currency) {
                             beoordeling:
                             <?php echo $currency["rating"] ?>
                         </div>
-                        <img src="assets/img/star.png" class="product-rating-star">
+                        <img src='<?php echo $currency["photos"]["photo5"] ?>' class="product-rating-star">
                     </div>
                 </div>
             </div>
