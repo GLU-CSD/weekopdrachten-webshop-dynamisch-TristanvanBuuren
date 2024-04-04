@@ -18,7 +18,5 @@ Email bon sturen
 
 
 mod 2 VVV
-header updaten en   <!-- START HEADER BOTTOMBAR--> tot   <!-- / HEADER BOTTOMBAR--> toevoegen en URL uitlezen en dan class="selected" toevoegen aan div id="NAVBAR"
-
-
-Home > Euro > Brief Geld + > product (toevoegen aan product pagina)
+Cross sell toevoegen
+Localstorage naar sessions veranderen

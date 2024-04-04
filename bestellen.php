@@ -23,9 +23,9 @@
 <body class="w-max" onload="ShowInfo(); GetUuid();">
   <form method="POST" action="resultaat.html">
     <br>
-    <a class="fake-button c-mf" href="winkelwagen.html" onclick="SaveInfo();" tabindex="1">Check Winkelwagen</a>
-    <a class="fake-button c-mf" href="index.php" onclick="SaveInfo();" tabindex="2">Terug naar webstore</a>
-    <div class="fake-button c-mf" onclick="ClearInfo()" tabindex="3">Clear Storage</div>
+    <a class="fake-button" href="winkelwagen.html" onclick="SaveInfo();" tabindex="1">Check Winkelwagen</a>
+    <a class="fake-button" href="index.php" onclick="SaveInfo();" tabindex="2">Terug naar webstore</a>
+    <div class="fake-button" onclick="ClearInfo()" tabindex="3">Clear Storage</div>
     <p id="bestelling-id"></p>
     <fieldset id="personalia" class="pos-mid">
       <legend>Personalia</legend>
@@ -66,7 +66,7 @@
 
       <label for="land">Uw land:*</label>
       <select name="land" id="land" class="w-120" required tabindex="12">
-        <option value="" label="none"></option>
+        <option value="" label="-"></option>
         <option value="Nederland">Nederland</option>
         <option value="Engeland">Engeland</option>
         <option value="Frankrijk">Frankrijk</option>
