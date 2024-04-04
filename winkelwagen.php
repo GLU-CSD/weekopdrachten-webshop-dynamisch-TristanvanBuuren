@@ -20,7 +20,7 @@
     </style>
 </head>
 
-<body onLoad="DisplayStorage(); GetDate(); CalculateTotal(); CrossSell();">
+<body onLoad="DisplayStorage(); GetDate(); CalculateTotal(); CrossSell();" class="bg">
     <div style="display: flex;">
         <a href="index.php" class="fake-button">Back</a>
         <div onclick="ClearStorage(); window.location.reload()" class="fake-button">Clear All</div>

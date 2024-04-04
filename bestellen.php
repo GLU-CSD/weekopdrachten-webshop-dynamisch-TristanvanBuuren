@@ -20,7 +20,7 @@
   </style>
 </head>
 
-<body class="w-max" onload="ShowInfo(); GetUuid();">
+<body class="w-max bg" onload="ShowInfo(); GetUuid();">
   <form method="POST" action="resultaat.html">
     <br>
     <a class="fake-button" href="winkelwagen.php" onclick="SaveInfo();" tabindex="1">Check Winkelwagen</a>

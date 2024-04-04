@@ -25,7 +25,7 @@ $currentpage = str_replace(".php", "", array_pop($url));
     </style>
 </head>
 
-<body onLoad="DisplayStorage()">
+<body onLoad="DisplayStorage()" class="bg">
     <div class="header-bar">
         <!-- START HEADER TOPBAR-->
         <div class="header-top-bar">
