@@ -30,8 +30,8 @@ let roebel2000 = 0
 let roebel5000 = 0
 
 const d = new Date();
-const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-const days = ["Sun", "Mon", "Tue", "Wen", "Thu", "Fri", "Sat"];
+const months = ["jan", "feb", "mrt", "apr", "mei", "jun", "jul", "aug", "sep", "okt", "nov", "dec"];
+const days = ["Zo", "Ma", "Di", "Wo", "Do", "Vr", "Za"];
 
 
 function DisplayStorage() { // if there is someting in storage it loads it and displays
@@ -692,25 +692,25 @@ function GetUuid() {
     }
 }
 
-function CrossSell(){
-    let items = [];
+// function CrossSell(){
+//     let items = [];
 
-    let categories = ["euro", "dollar", "yen", "pond", "roebel"];
-    let categoryLenght = [7,7,4,4,5];
+//     let categories = ["euro", "dollar", "yen", "pond", "roebel"];
+//     let categoryLenght = [7,7,4,4,5];
 
-    for(let i = 0; i < 4; i++) {
-        let category = Math.floor(Math.random() * categories.length);
-        // categories == categoryLenght.value;
-        let id = Math.floor(Math.random() * categoryLenght[category]); 
-        items.push([categories[category], id])
-    }
+//     for(let i = 0; i < 4; i++) {
+//         let category = Math.floor(Math.random() * categories.length);
+//         // categories == categoryLenght.value;
+//         let id = Math.floor(Math.random() * categoryLenght[category]); 
+//         items.push([categories[category], id])
+//     }
 
-    console.log(items)
+//     console.log(items)
 
-    var fs = require('fs');
-    fs.writeFile ("input.json", JSON.stringify(items), function(err) {
-        if (err) throw err;
-        console.log('complete');
-        }
-    );
-}
+//     var fs = require('fs');
+//     fs.writeFile ("input.json", JSON.stringify(items), function(err) {
+//         if (err) throw err;
+//         console.log('complete');
+//         }
+//     );
+// }

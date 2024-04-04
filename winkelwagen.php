@@ -74,23 +74,33 @@
             <?php
             include ("view/products.php");
 
-
             $items = [];
             $categories = ["euro", "dollar", "yen", "pond", "roebel"];
             $categoryLength = [7, 7, 4, 4, 5];
-            $i;
 
             for ($i = 0; $i < 4; $i++) {
                 $category = rand(0, count($categories) - 1);
                 $id = rand(0, $categoryLength[$category] - 1);
-                $items[] = [$categories[$category], $id];
-            
-                $cat = $categories[$category];
 
-                if($items[[$categories[$category], $id]] == $items[[$categories[$category], $id]]){
-                    $i--;
+                // Check if the category and id already exist in $items array
+                $duplicate = false;
+                foreach ($items as $item) {
+                    if ($item[0] == $categories[$category] && $item[1] == $id) {
+                        $duplicate = true;
+                        break;
+                    }
                 }
 
+                // If it's a duplicate, decrement $i and continue to the next iteration
+                if ($duplicate) {
+                    $i--;
+                    // print ("DUPLICATE FOUND");
+                    continue;
+                }
+
+                $items[] = [$categories[$category], $id];
+
+                $cat = $categories[$category];
                 foreach ($currencies[$cat] as $currency) {
                     if ($currency["id"] == $id) {
                         ?>
@@ -104,6 +114,7 @@
                 }
             }
             ?>
+
         </div>
     </div>
     <!-- <div class="cross-sell-bar dis-inline-flex dis-dir-col">
