@@ -211,7 +211,7 @@
     </fieldset> -->
 
 
-    <p id="counter" class="hidden">amount in cart</p>
+    <p id="counter" class="dis-none">amount in cart</p>
     <script src="./assets/js/cart.js"></script>
 </body>
 
