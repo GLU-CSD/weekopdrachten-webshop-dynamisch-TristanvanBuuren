@@ -70,7 +70,7 @@ $currentpage = str_replace(".php", "", array_pop($url));
                 <div id="menu">
                     <a class="button">search</a>
                     <a class="button">Vergelijk</a>
-                    <a class="button" href="winkelwagen.html">Winkelwagen</a>
+                    <a class="button" href="winkelwagen.php">Winkelwagen</a>
                 </div>
                 <p id="counter">(0)</p>
                 <p id="clear">X</p>

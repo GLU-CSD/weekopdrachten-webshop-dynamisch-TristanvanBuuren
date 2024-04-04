@@ -631,6 +631,10 @@
    display: none;
  }
 
+ .dis-dir-col {
+   flex-direction: column;
+ }
+
  .dis-inline-flex {
    display: inline-flex;
  }

@@ -691,3 +691,15 @@ function GetUuid() {
         console.log("Already Generated  " + localStorage.getItem("uuid"));
     }
 }
+
+function CrossSell(){
+    let categories = ["euro", "dollar", "yen", "pond", "roebel"];
+    let categoryLenght = [7,7,4,4,5];
+
+    let category = Math.floor(Math.random() * categories.length);
+    categories == categoryLenght.value;
+    let id = Math.floor(Math.random() * categoryLenght[category]);
+
+    console.log(categories[category], id);
+    return(category, id)
+}

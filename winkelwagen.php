@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Webshop</title>
-        <link rel="stylesheet" href="assets/css/style.css">
-        <meta name="description" content="">
-    
-        <link rel="icon" href="/favicon.ico" sizes="any">
-        <link rel="icon" href="/icon.svg" type="image/svg+xml">
-        <link rel="apple-touch-icon" href="icon.png">
-        <meta name="theme-color" content="#fafafa">
-    
-        <style>
-          ul#menu li {
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Webshop</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="description" content="">
+
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="icon.png">
+    <meta name="theme-color" content="#fafafa">
+
+    <style>
+        ul#menu li {
             display: inline;
-          }
-        </style>
-      </head>
-<body onLoad="DisplayStorage(); GetDate(); CalculateTotal()">
+        }
+    </style>
+</head>
+
+<body onLoad="DisplayStorage(); GetDate(); CalculateTotal(); CrossSell();">
     <div style="display: flex;">
         <a href="index.php" class="fake-button">Back</a>
         <div onclick="ClearStorage(); window.location.reload()" class="fake-button">Clear All</div>
@@ -53,12 +55,32 @@
         <p id="roebel2000display"></p>
         <p id="roebel5000display"></p>
     </div><br><br>
-    <p id="btw">BTW bedrag 21%</p>
-    <p id="excbtw"></p>
-    <!-- <p id="incbtw"></p> --> 
-    <p id="verbtw"></p>
-    <p id="totprice"></p>
-    <div>
+    <div class="dis-inline-flex">
+        <div>
+            <p id="btw">BTW bedrag 21%</p>
+            <p id="excbtw"></p>
+            <!-- <p id="incbtw"></p> -->
+            <p id="verbtw"></p>
+            <p id="totprice"></p>
+        </div>
+        <a class="buynow" href="bestellen.php">
+            <img src="assets/img/register.png" class="register">
+            BUY NOW
+        </a>
+    </div><br><br>
+    <?php
+    include ("view/products.php");
+    ?>
+    <div class="cross-sell-bar dis-inline-flex dis-dir-col">
+        Je vind dit misschien ook intressant!
+        <div class="dis-inline-flex">
+            <div class="cross-sell-item">a</div>
+            <div class="cross-sell-item">b</div>
+            <div class="cross-sell-item">c</div>
+            <div class="cross-sell-item">d</div>
+        </div>
+    </div>
+    <!-- <div> -->
     <br>
     <p class="dis-none" id="clear"></p>
     <!-- <div style="width: max; height: 100px;">
@@ -98,7 +120,7 @@
     <div style="background-color: gray; width: all; height: 100px; display: flex;"><div style="background-color: blue; width: 20%; height: 100px;"></div><div style="background-color: yellow; width: 20%; height: 100px;"></div><div style="background-color: green; width: 20%; height: 100px;"></div><div style="background-color: red; width: 20%; height: 100px;">BTW: 21%</div><div style="background-color: purple; width: 20%; height: 100px;">TOTAALL BTW BEDRAG</div></div>
     <div style="width: all; height: 100px; display: flex;"><div style="width: 20%; height: 100px;"></div><div style="width: 20%; height: 100px;"></div><div style="width: 20%; height: 100px;"></div><div style="width: 20%; height: 100px;"></div><div style="width: 20%; height: 100px;">TOTAAL PRIJS</div></div>
    </div> -->
- 
+
     <!-- <fieldset>
         <legend>Euros</legend>
         <p id="euro5display"></p>
@@ -146,4 +168,5 @@
     <p id="counter" class="hidden">amount in cart</p>
     <script src="./assets/js/cart.js"></script>
 </body>
+
 </html>
