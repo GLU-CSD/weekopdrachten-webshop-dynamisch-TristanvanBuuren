@@ -68,18 +68,53 @@
             BUY NOW
         </a>
     </div><br><br>
-    <?php
-    include ("view/products.php");
-    ?>
     <div class="cross-sell-bar dis-inline-flex dis-dir-col">
         Je vind dit misschien ook intressant!
         <div class="dis-inline-flex">
-            <div class="cross-sell-item">a</div>
-            <div class="cross-sell-item">b</div>
-            <div class="cross-sell-item">c</div>
-            <div class="cross-sell-item">d</div>
+            <?php
+            include ("view/products.php");
+
+
+            $items = [];
+            $categories = ["euro", "dollar", "yen", "pond", "roebel"];
+            $categoryLength = [7, 7, 4, 4, 5];
+            $i;
+
+            for ($i = 0; $i < 4; $i++) {
+                $category = rand(0, count($categories) - 1);
+                $id = rand(0, $categoryLength[$category] - 1);
+                $items[] = [$categories[$category], $id];
+            
+                $cat = $categories[$category];
+
+                if($items[[$categories[$category], $id]] == $items[[$categories[$category], $id]]){
+                    $i--;
+                }
+
+                foreach ($currencies[$cat] as $currency) {
+                    if ($currency["id"] == $id) {
+                        ?>
+                        <a class="cross-sell-item"
+                            href='productpage.php?id=<?php echo $currency["id"] . "&cat=" . $currency["category"] ?>'>
+                            <img class="altImg" onclick="SwitchImg(this)" src='<?php echo $currency["photos"]["photo1"] ?>'
+                                class='geld-briefje' />
+                        </a>
+                        <?php
+                    }
+                }
+            }
+            ?>
         </div>
     </div>
+    <!-- <div class="cross-sell-bar dis-inline-flex dis-dir-col">
+        Je vind dit misschien ook intressant!
+        <div class="dis-inline-flex">
+            <div class="cross-sell-item item-a"></div>
+            <div class="cross-sell-item item-b"></div>
+            <div class="cross-sell-item item-c"></div>
+            <div class="cross-sell-item item-d"></div>
+        </div>
+    </div> -->
     <!-- <div> -->
     <br>
     <p class="dis-none" id="clear"></p>

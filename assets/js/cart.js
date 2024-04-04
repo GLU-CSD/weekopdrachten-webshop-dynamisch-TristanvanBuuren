@@ -693,13 +693,24 @@ function GetUuid() {
 }
 
 function CrossSell(){
+    let items = [];
+
     let categories = ["euro", "dollar", "yen", "pond", "roebel"];
     let categoryLenght = [7,7,4,4,5];
 
-    let category = Math.floor(Math.random() * categories.length);
-    categories == categoryLenght.value;
-    let id = Math.floor(Math.random() * categoryLenght[category]);
+    for(let i = 0; i < 4; i++) {
+        let category = Math.floor(Math.random() * categories.length);
+        // categories == categoryLenght.value;
+        let id = Math.floor(Math.random() * categoryLenght[category]); 
+        items.push([categories[category], id])
+    }
 
-    console.log(categories[category], id);
-    return(category, id)
+    console.log(items)
+
+    var fs = require('fs');
+    fs.writeFile ("input.json", JSON.stringify(items), function(err) {
+        if (err) throw err;
+        console.log('complete');
+        }
+    );
 }
