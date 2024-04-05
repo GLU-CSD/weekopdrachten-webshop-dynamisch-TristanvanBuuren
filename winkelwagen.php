@@ -25,7 +25,7 @@
         <a href="index.php" class="fake-button">Back</a>
         <div onclick="ClearStorage(); window.location.reload()" class="fake-button">Clear All</div>
         <p id="date"></p>
-    </div>
+    </div><br>
     <div>
         <p id="euro5display"></p>
         <p id="euro10display"></p>

@@ -30,7 +30,7 @@ let roebel2000 = 0;
 let roebel5000 = 0;
 
 const d = new Date();
-const months = ["jan", "feb", "mrt", "apr", "mei", "jun", "jul", "aug", "sep", "okt", "nov", "dec"];
+const months = ["Jan", "Feb", "Mrt", "Apr", "Mei", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dec"];
 const days = ["Zo", "Ma", "Di", "Wo", "Do", "Vr", "Za"];
 
 
