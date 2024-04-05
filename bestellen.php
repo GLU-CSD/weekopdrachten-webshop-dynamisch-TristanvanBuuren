@@ -88,9 +88,10 @@
       <!-- https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_tel -->
     </fieldset>
     <div id="avvBox">
-      <input type="checkbox" id="avv" name="avv" required tabindex="15">
-      <label for="avv" id="avvText">Ik accepteer de agemene voorwaarden. <a href="AVV.html">Lees hier.</a></label>
-      <input type="submit" id="submit" name="submit" value="submit" onclick="SaveInfo();">
+      <input type="checkbox" id="avv" name="avv" required tabindex="16">
+      <label for="avv" id="avvText">Ik accepteer de agemene voorwaarden. <a href="AVV.html" tabindex="15">Lees
+          hier.</a></label>
+      <input type="submit" id="submit" name="submit" value="submit" onclick="SaveInfo();" tabindex="17">
     </div>
     <div class="pos-mid" id="star"> * Vereiste veld</div>
     <br>
