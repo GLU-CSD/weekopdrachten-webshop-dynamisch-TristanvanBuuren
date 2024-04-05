@@ -78,7 +78,7 @@ function DisplayStorage() { // if there is someting in storage it loads it and d
         if (localStorage.getItem("dollar1") !== null) {
             dollar1 = localStorage.getItem("dollar1");
             // document.getElementById("dollar1display").innerHTML =  (dollar1 * 10) + "x 1 dollar" + "   (" + dollar1 + ")";
-            document.getElementById("dollar1display").innerHTML = "10x 1 dollar briefjes  " + "€ 7,95" + "   (" + dollar1 + ")" + "   € " + (((7.95) * euro500).toFixed(2));
+            document.getElementById("dollar1display").innerHTML = "10x 1 dollar briefjes  " + "€ 7,95" + "   (" + dollar1 + ")" + "   € " + (((7.95) * dollar1).toFixed(2));
         }
         if (localStorage.getItem("dollar2") !== null) {
             dollar2 = localStorage.getItem("dollar2");
