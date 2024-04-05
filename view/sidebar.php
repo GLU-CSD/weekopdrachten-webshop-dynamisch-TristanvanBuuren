@@ -3,7 +3,27 @@
     <ul class="arrow-points">
         <li>Alle (15)</li>
         <li>Munt Geld (8)</li>
-        <li>Brief Geld (7)</li>
+        <?php
+        include ("view/products.php");
+
+        if ($currentpage == "index") {
+            echo "<li>Brief Geld (7)</li>";
+        }
+        if ($currentpage == "dollar") {
+            echo "<li>Brief Geld (7)</li>";
+        }
+        if ($currentpage == "yen") {
+            echo "<li>Brief Geld (4)</li>";
+        }
+        if ($currentpage == "pound") {
+            echo "<li>Brief Geld (4)</li>";
+        }
+        if ($currentpage == "roebel") {
+            echo "<li>Brief Geld (5)</li>";
+        }
+        ?>
+
+        <!-- <li>Brief Geld (7)</li> -->
     </ul>
 </div>
 <div class="side-box" id="Uw-selectie-verfijnen">
